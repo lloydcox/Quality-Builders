@@ -1,0 +1,22 @@
+.background {
+  background-image: url("/Quality-Builders/Assets/Imgs/pictures/roof.jfif");
+}
+
+.divider {
+  background-color: orange;
+  display: block;
+}
+
+.divider-block {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.divider-contact-btn {
+  background-color: white;
+  padding: 15px 0;
+  width: 20%;
+}
