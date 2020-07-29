@@ -1,5 +1,33 @@
 .footer-container {
     display: flex;
     background-color: $orange;
-    padding-top: 20px;
+    padding: 20px 0;
+}
+
+.footer-content {
+    width: 1200px;
+    display: flex;
+    margin: 0 $margin-h;
+}
+
+.footer-column-1, .footer-column-2, .footer-column-3 {
+    width: 400px;
+}
+
+.footer-column-1 {
+    padding-left: 40px;
+}
+
+.submit {
+    background-color: $black;
+    border-radius: 5px;
+    color: $white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.email-form {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px 0 0 5px;
 }

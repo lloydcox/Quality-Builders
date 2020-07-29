@@ -1,13 +1,24 @@
 .get-in-touch-container {
+    padding: 20px 0;
     background-color: $black;
     color: $light-text;
-    p {
-
-    }
     a {
-        color: $light-text;
+        color: $dark-text;
+        padding: 15px 40px;
     }
 }
 .get-in-touch-btn {
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 3px solid orange;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.get-in-touch-content {
+    display: flex;
+    margin: 0px $margin-h;
+
 }

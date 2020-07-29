@@ -1,31 +1,50 @@
-a {
-    text-decoration: none;
-    color: $black;
-}
-
 .header-container {
     display: flex;
+    padding: 15px 0;
 }
-
+.header-content {
+    display: flex;
+    width: 1200px;
+    margin: 0 $margin-h;
+}
+.qb-logo {
+    background-color: grey;
+    width: 200px;
+}
 .main-nav {
     ul li {
         display: inline-block;
+        padding: 0 15px;
     }    
+   .drop-nav ul li {
+        display: block;
+    }
+    margin-left: auto;
 }
 
 .drop-nav {
     display: none;
+    position: absolute;
+    background-color: $orange;
+    ul {
+        padding: 0;
+    }
+}
+.services {
+    position: relative;
 }
 
 .services:hover {
     .drop-nav {
-        display: inline;
+        display: block;
     }
 }
 
 .telephone-contact {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     background-color: $orange;
+    margin-left: 30px;
 }
 
 .circle {
