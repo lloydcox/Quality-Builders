@@ -20,3 +20,36 @@
   padding: 15px 0;
   width: 20%;
 }
+
+.partners-heading {
+  position: relative;
+  margin-left: 50px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.partners-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 165px;
+  top: 45px;
+  height: 3px;
+  background-color: lightgray;
+}
+
+.partner-1 {
+  display: none;
+}
+
+/* -------- Hover text appears ---- */
+.partner:hover .partner1 {
+  display: none;
+}
+
+.partner:hover .partner-1 {
+  display: block;
+}
