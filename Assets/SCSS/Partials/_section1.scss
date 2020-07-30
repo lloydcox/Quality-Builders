@@ -1,31 +1,45 @@
 .header-container {
     display: flex;
-    padding: 15px 0;
+    // padding: 15px 0;
 }
 .header-content {
     display: flex;
     width: 1200px;
-    margin: 0 $margin-h;
+    margin: 0 auto;
 }
 .qb-logo {
-    background-color: grey;
-    width: 200px;
+    display: flex;
+    a {
+        display: flex;
+    }
+    img {
+        margin: auto auto auto 0;
+        width: 260px;
+    }
 }
 .main-nav {
     ul li {
         display: inline-block;
-        padding: 0 15px;
+        padding: 20px 15px;
+        &:hover {
+            background: darken($white, 5%);
+        }
+        a {
+            padding: 20px 15px;
+        }
     }    
    .drop-nav ul li {
         display: block;
     }
-    margin-left: auto;
+    margin: auto 0 auto auto;
 }
 
 .drop-nav {
     display: none;
     position: absolute;
     background-color: $orange;
+    top: 58px;
+    left: 0px;
     ul {
         padding: 0;
     }
@@ -42,11 +56,27 @@
 
 .telephone-contact {
     display: flex;
-    flex-direction: column;
     background-color: $orange;
-    margin-left: 30px;
+    margin: auto 0 auto 30px;
+    .circle {
+        background-color: $white;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        margin: 3px 7px;
+    }
+    svg {
+        height: 28px; 
+        fill: $orange;
+        margin: auto;
+    }
+    a {
+        display: flex;
+        align-items: center;  
+        padding: 0 12px 0 0;
+    }
 }
-
+ 
 .circle {
     border-radius: 50%;
     background-color: $white;

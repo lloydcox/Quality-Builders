@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -10,26 +14,37 @@ a {
 
 .header-container {
   display: flex;
-  padding: 15px 0;
 }
 
 .header-content {
   display: flex;
   width: 1200px;
-  margin: 0 50px;
+  margin: 0 auto;
 }
 
 .qb-logo {
-  background-color: grey;
-  width: 200px;
+  display: flex;
+}
+.qb-logo a {
+  display: flex;
+}
+.qb-logo img {
+  margin: auto auto auto 0;
+  width: 260px;
 }
 
 .main-nav {
-  margin-left: auto;
+  margin: auto 0 auto auto;
 }
 .main-nav ul li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 20px 15px;
+}
+.main-nav ul li:hover {
+  background: #f2f2f2;
+}
+.main-nav ul li a {
+  padding: 20px 15px;
 }
 .main-nav .drop-nav ul li {
   display: block;
@@ -39,6 +54,8 @@ a {
   display: none;
   position: absolute;
   background-color: orange;
+  top: 58px;
+  left: 0px;
 }
 .drop-nav ul {
   padding: 0;
@@ -54,9 +71,25 @@ a {
 
 .telephone-contact {
   display: flex;
-  flex-direction: column;
   background-color: orange;
-  margin-left: 30px;
+  margin: auto 0 auto 30px;
+}
+.telephone-contact .circle {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  margin: 3px 7px;
+}
+.telephone-contact svg {
+  height: 28px;
+  fill: orange;
+  margin: auto;
+}
+.telephone-contact a {
+  display: flex;
+  align-items: center;
+  padding: 0 12px 0 0;
 }
 
 .circle {
@@ -66,19 +99,36 @@ a {
 
 .welcome-container {
   display: flex;
-  margin: 0 50px;
 }
-.welcome-container .column-1, .welcome-container .column-2 {
+
+.welcome-content {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.welcome-content .column-1, .welcome-content .column-2 {
   display: flex;
   width: 50%;
+  padding: 15px;
 }
-.welcome-container .column-1 {
+.welcome-content .column-1 {
   flex-direction: column;
+}
+.welcome-content .column-1 h2 {
+  margin-bottom: 5px;
+  font-size: 32px;
+}
+
+.divider {
+  height: 2px;
+  width: 300px;
+  background-color: gray;
 }
 
 .welcome-images {
   border: orange 15px solid;
   padding: 8px;
+  width: 600px;
 }
 
 .welcome-bottom-imgs {
@@ -115,13 +165,20 @@ a {
 }
 
 .get-in-touch-container {
+  display: flex;
   padding: 20px 0;
   background-color: black;
   color: #fff;
 }
 .get-in-touch-container a {
   color: black;
-  padding: 15px 40px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.get-in-touch-container p {
+  padding-right: 50px;
+  margin: 12px 0;
 }
 
 .get-in-touch-btn {
@@ -131,18 +188,26 @@ a {
   background-color: #fff;
   border: 3px solid orange;
   font-size: 20px;
-  margin-left: 15px;
+  width: 400px;
+  text-align: center;
+}
+.get-in-touch-btn:hover {
+  background-color: #f2f2f2;
 }
 
 .get-in-touch-content {
   display: flex;
-  margin: 0px 50px;
+  margin: 0px auto;
+  width: 1200px;
 }
 
 .footer-container {
   display: flex;
   background-color: orange;
   padding: 20px 0;
+}
+.footer-container a:hover {
+  text-decoration: underline;
 }
 
 .footer-content {
@@ -156,7 +221,7 @@ a {
 }
 
 .footer-column-1 {
-  padding-left: 40px;
+  padding: 0 30px;
 }
 
 .submit {
@@ -165,12 +230,35 @@ a {
   color: #fff;
   border: none;
   padding: 5px 10px;
+  margin-left: -5px;
+}
+
+.submit:hover {
+  background-color: #0d0d0d;
 }
 
 .email-form {
+  width: 180px;
   border: none;
   padding: 5px 10px;
   border-radius: 5px 0 0 5px;
+}
+
+.socials-container {
+  display: flex;
+}
+.socials-container .socials-column-1, .socials-container .socials-column-2 {
+  display: flex;
+  flex-direction: column;
+}
+.socials-container .socials-column-1 div, .socials-container .socials-column-2 div {
+  display: flex;
+  margin-right: 10px;
+}
+.socials-container svg {
+  height: 25px;
+  fill: #fff;
+  margin: auto 10px 5px 0;
 }
 
 .copyright-container {

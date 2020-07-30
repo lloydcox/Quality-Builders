@@ -5,6 +5,7 @@ $black: black;
 $white: #fff;
 $light-text: #fff;
 $dark-text: black;
+$divider: gray;
 
 
 // ---- horizontal margins ----//
@@ -15,3 +16,7 @@ $margin-h: 50px;
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 // font-family: 'Noto Sans JP', sans-serif;
+
+* {
+    box-sizing: border-box;
+}
