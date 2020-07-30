@@ -1,18 +1,20 @@
 
 // CSS for Partners section 
 
-// .partners {
-
-// }
+.partners-container {
+    display: flex;
+    justify-content: center;
+}
 
 .partners-heading {
     position: relative;
-    margin-left: 50px;
 }
 
+.partners {
+    padding-bottom: 30px;
+}
 
-
-h2 {
+.partners-title {
     font-size: 2em;
     margin-bottom: 40px;
 }
@@ -28,15 +30,15 @@ h2 {
 } 
 
 .partner-1 {
-    display: none;
+    display: none !important;
 }
 
 /* -------- Hover text appears ---- */
  
 .partner:hover .partner1 {
-    display: none;
+    display: none !important;
 }
 
 .partner:hover .partner-1 {
-    display: block;
+    display: block !important;
 }

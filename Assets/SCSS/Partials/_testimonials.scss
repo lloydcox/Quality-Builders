@@ -1,0 +1,41 @@
+// Testimonials styles
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.testimonial-title {
+    margin-bottom: 60px;
+}
+
+.blockquote {
+    position: relative;
+}
+    
+.blockquote p {
+    font-size:21px;
+}
+    
+.blockquote p:before { 
+    content: open-quote;
+    font-weight: bold;
+    font-size:100px;
+    color: black;
+    position: absolute;
+    bottom: -50px;
+} 
+
+.blockquote p:after { 
+    content: close-quote;
+    font-weight: bold;
+    font-size:100px;
+    color: black;
+    position: absolute;
+    left: 1140px
+}
+
+.client-testimonial {
+    font-size: 1.5em;
+}

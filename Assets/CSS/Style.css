@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap%27");
 .background {
   background-image: url("/Quality-Builders/Assets/Imgs/pictures/roof.jfif");
 }
@@ -21,12 +22,20 @@
   width: 20%;
 }
 
-.partners-heading {
-  position: relative;
-  margin-left: 50px;
+.partners-container {
+  display: flex;
+  justify-content: center;
 }
 
-h2 {
+.partners-heading {
+  position: relative;
+}
+
+.partners {
+  padding-bottom: 30px;
+}
+
+.partners-title {
   font-size: 2em;
   margin-bottom: 40px;
 }
@@ -42,14 +51,145 @@ h2 {
 }
 
 .partner-1 {
-  display: none;
+  display: none !important;
 }
 
 /* -------- Hover text appears ---- */
 .partner:hover .partner1 {
-  display: none;
+  display: none !important;
 }
 
 .partner:hover .partner-1 {
-  display: block;
+  display: block !important;
+}
+
+.services {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 30px 0;
+}
+
+.container {
+  align-self: center;
+  width: 1200px;
+}
+
+.services-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-title {
+  position: relative;
+  width: 180px;
+  justify-content: center;
+  flex: 1 0 auto;
+  margin-right: 30px;
+  font-size: 2em;
+}
+
+.service-title-text {
+  font-size: 1.35em;
+}
+
+.service-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 125px;
+  top: 45px;
+  height: 3px;
+  background-color: white;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.service {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: auto;
+  position: relative;
+  align-items: center;
+}
+
+.service img {
+  width: 100%;
+  height: 240px;
+}
+
+.service-icon {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  margin: -50px 0;
+}
+
+.text-section {
+  margin-top: 40px;
+  text-align: center;
+  width: 90%;
+}
+
+.text-section h3 {
+  font-size: 1.75em;
+}
+
+.text-section p {
+  font-size: 1.35em;
+  line-height: 1.15em;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: yellow;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.testimonial-title {
+  margin-bottom: 60px;
+}
+
+.blockquote {
+  position: relative;
+}
+
+.blockquote p {
+  font-size: 21px;
+}
+
+.blockquote p:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 100px;
+  color: black;
+  position: absolute;
+  bottom: -50px;
+}
+
+.blockquote p:after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 100px;
+  color: black;
+  position: absolute;
+  left: 1140px;
+}
+
+.client-testimonial {
+  font-size: 1.5em;
 }
