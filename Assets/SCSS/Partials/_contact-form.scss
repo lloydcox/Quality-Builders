@@ -1,0 +1,78 @@
+/* CONTACT FORM PAGE STYLES */
+.form {
+    h2 {
+        text-align: center;
+        background-color: $orange;
+        padding: 30px 0;
+        margin: 0;
+    }
+    p {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+} 
+.form-content {
+        display: flex;
+        width: 1200px;
+        margin: auto;
+        form {
+            padding-left: 30px;
+        }
+        .img {
+            border: solid 5px $orange;
+            margin: 0 auto;
+        }
+        .column-1, .column-2 {
+            display: flex; 
+            flex-direction: column;
+            width: 600px;
+        }
+        input, textarea {
+            display: block;
+            background: rgba(255,255,255,0.1);
+            border: none;
+            font-size: 16px;
+            height: auto;
+            margin: 15px 0;
+            outline: 0;
+            padding: 15px;
+            width: 100%;
+            background-color: #e8eeef;
+            color: #8a97a0;
+            box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+            margin-bottom: 30px;
+            width: 80%;
+        }
+        .btn {
+            // margin: 0 0 0 15px;
+            display: block;
+            border: none;
+            background-color: $yellow;
+            padding: 10px 20px; 
+            border-radius: 4px;
+        }
+    label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      .checkbox, .gdpr {
+        display: inline-block;    
+      }
+      .checkbox {
+          width: auto;
+          display: inline-block;
+      }
+      .gdpr {
+          margin: 16px 0;
+          font-size: 14px;
+          a:hover {
+            text-decoration: underline;
+          }
+      }
+  }

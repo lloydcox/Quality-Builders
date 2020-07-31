@@ -44,64 +44,36 @@
             </div>
         </div>
     </header>
-    <!--- section 2 --->
-    <div>
-
-    </div>
-
-    <!--- section 3 --->
-    <div class="welcome-container container">
-        <div class="welcome-content">
-            <div class="column-1">
-                <h2>Welcome to</h2>
-                <div class="img">
-                    <img src="Assets/Imgs/pictures/QB-logo.png" alt="Quality Builders logo">
-                </div>
-                <div class="divider"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis nulla non ex vehicula mollis. Aenean sed vulputate dui. Ut laoreet finibus ligula, sed faucibus metus pellentesque eu. Morbi convallis tortor nec tortor mollis, in aliquet massa rutrum. Curabitur a neque suscipit, maximus justo vel, posuere enim. Nullam semper nibh vel eros varius, a viverra dolor semper. Cras pulvinar, justo eget tempor semper, metus arcu vulputate magna, vulputate porta odio orci ut turpis. Duis at finibus tellus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis nulla non ex vehicula mollis. Aenean sed vulputate dui. Ut laoreet finibus ligula, sed faucibus metus pellentesque eu. Morbi convallis tortor nec tortor mollis, in aliquet massa rutrum. Curabitur a neque suscipit, maximus justo vel, posuere enim. Nullam semper nibh vel eros varius, a viverra dolor semper. Cras pulvinar, justo eget tempor semper, metus arcu vulputate magna, vulputate porta odio orci ut turpis. Duis at finibus tellus.</p>
-            </div>
-            <div class="column-2">
-                <div class="welcome-images">
-                    <!-- Achieve borders with padding and orange border -->
-                    <div class="top-img"></div>
-                    <div class="welcome-bottom-imgs">
-                        <div class="bottom-img-1"></div>
-                        <div class="bottom-img-2"></div>
+   <!-- New content -->
+    <main class="form">
+        <h2>Leave Us a Message</h2>
+        <div class="form-container container">
+            <div class="form-content">
+                <div class="column-1">
+                    <div class="img">
+                        <img src="Assets/Imgs/pictures/contact form placeholder.jpg">
                     </div>
                 </div>
+                <div class="column-2">
+                    <form method="POST">
+                        <label for="form-name">Name:</label>
+                        <input type="text" id="form-name">
+                        <label for="form-email">Email Address:</label>
+                        <input type="email" id="form-email">
+                        <label for="form-phone-number">Phone Number:</label>
+                        <input type="tel" id="form-phone-number">
+                        <label for="form-message">Message:</label>
+                        <textarea type="text" id="form-message"></textarea>
+                        <input class="checkbox" type="checkbox"> 
+                        <p class="gdpr">By ticking this box you confirm that you accept our <a href="#" target="_blank"><strong>Privacy Policy</strong></a></p>
+                        <button class= "btn" type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
+            <p>We aim to get back to you within 2 working days.</p>
         </div>
-    </div>
-
-    <!--- section 4 --->
-    <div>
-
-    </div>
-
-    <!--- section 5 --->
-    <div>
-
-    </div>
-
-    <!--- section 6 --->
-    <div>
-
-    </div>
-
-    <!--- section 7 --->
-    <div class="get-in-touch-container container">
-        <div class="get-in-touch-content">
-            <div class="get-in-touch-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis sodales tortor. Proin consequat placerat dolor non pharetra. Nam ac justo tortor. </p>
-            </div>
-            <div class="get-in-touch-btn">
-                <a href="contact-form.html">Get In Touch</a>
-            </div>
-        </div>
-    </div>
-
-    <!--- section 8 --->
+    </main>
+   
     <footer>
         <div class="footer-container container">
             <div class="footer-content">
@@ -149,9 +121,9 @@
                         </div>
                     </div>
                     <h3>Subscribe To Our List</h3>
-                    <form class="signup" method="POST">
+                    <form class="signup">
                         <input class="email-form" value="Enter Email Here">
-                        <button type="submit" class="btn submit">Submit</button>
+                        <button class="btn submit" onclick="">Submit</button>
                     </form>
                 </div>
             </div>
@@ -164,5 +136,4 @@
     </div>
 
 </body>
-
 </html>

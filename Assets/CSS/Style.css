@@ -335,4 +335,81 @@ a {
   padding: 30px 0;
 }
 
+/* CONTACT FORM PAGE STYLES */
+.form h2 {
+  text-align: center;
+  background-color: #f2a100;
+  padding: 30px 0;
+  margin: 0;
+}
+.form p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+}
+
+.form-content {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+.form-content form {
+  padding-left: 30px;
+}
+.form-content .img {
+  border: solid 5px #f2a100;
+  margin: 0 auto;
+}
+.form-content .column-1, .form-content .column-2 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.form-content input, .form-content textarea {
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 15px 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+  width: 80%;
+}
+.form-content .btn {
+  display: block;
+  border: none;
+  background-color: yellow;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.form-content label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-content .checkbox, .form-content .gdpr {
+  display: inline-block;
+}
+.form-content .checkbox {
+  width: auto;
+  display: inline-block;
+}
+.form-content .gdpr {
+  margin: 16px 0;
+  font-size: 14px;
+}
+.form-content .gdpr a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=Style.css.map */
