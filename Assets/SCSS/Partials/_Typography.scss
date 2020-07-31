@@ -6,3 +6,23 @@ a {
     text-decoration: none;
     color: $black;
 }
+
+.header-container, .get-in-touch-btn {
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 0.01px;
+    font-weight: bolder;
+} 
+
+.footer-container {
+    font-weight: bolder;
+    p, a, .btn {
+            font-size: 14px;
+        }
+}
+
+.welcome-content {
+    p {
+        color: $gray-text;
+        font-size: 20px;
+    }
+}

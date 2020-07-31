@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -9,7 +10,25 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #0f1626;
+}
+
+.header-container, .get-in-touch-btn {
+  font-family: "Lexend Deca", sans-serif;
+  letter-spacing: 0.01px;
+  font-weight: bolder;
+}
+
+.footer-container {
+  font-weight: bolder;
+}
+.footer-container p, .footer-container a, .footer-container .btn {
+  font-size: 14px;
+}
+
+.welcome-content p {
+  color: gray;
+  font-size: 20px;
 }
 
 .header-container {
@@ -46,23 +65,31 @@ a {
 .main-nav ul li a {
   padding: 20px 15px;
 }
-.main-nav .drop-nav ul li {
-  display: block;
-}
 
 .drop-nav {
   display: none;
   position: absolute;
-  background-color: orange;
+  background-color: #f2a100;
   top: 58px;
   left: 0px;
 }
 .drop-nav ul {
   padding: 0;
 }
+.drop-nav ul li {
+  display: flex;
+  padding: 0;
+}
+.drop-nav ul li a {
+  padding: 10px 10px;
+}
 
 .services {
   position: relative;
+}
+
+.services, .drop-nav {
+  width: 150px;
 }
 
 .services:hover .drop-nav {
@@ -71,7 +98,7 @@ a {
 
 .telephone-contact {
   display: flex;
-  background-color: orange;
+  background-color: #f2a100;
   margin: auto 0 auto 30px;
 }
 .telephone-contact .circle {
@@ -83,7 +110,7 @@ a {
 }
 .telephone-contact svg {
   height: 28px;
-  fill: orange;
+  fill: #f2a100;
   margin: auto;
 }
 .telephone-contact a {
@@ -167,7 +194,7 @@ a {
 .get-in-touch-container {
   display: flex;
   padding: 20px 0;
-  background-color: black;
+  background-color: #0f1626;
   color: #fff;
 }
 .get-in-touch-container a {
@@ -203,7 +230,7 @@ a {
 
 .footer-container {
   display: flex;
-  background-color: orange;
+  background-color: #f2a100;
   padding: 20px 0;
 }
 .footer-container a:hover {
@@ -223,9 +250,35 @@ a {
 .footer-column-1 {
   padding: 0 30px;
 }
+.footer-column-1 p {
+  margin: 6px 0;
+}
+.footer-column-1 p:first-of-type {
+  margin: 15px 0 6px 0;
+}
+
+.footer-column-2 ul {
+  list-style-image: url("../Imgs/icons/List icon arrow.svg");
+  padding-left: 20px;
+}
+.footer-column-2 ul li {
+  padding: 1px 0;
+}
+.footer-column-2 li::marker {
+  fill: #fff;
+  height: 5px;
+}
+
+.social {
+  display: flex;
+  margin-bottom: 5px;
+}
+.social a {
+  margin: auto auto auto 0;
+}
 
 .submit {
-  background-color: black;
+  background-color: #0f1626;
   border-radius: 5px;
   color: #fff;
   border: none;
@@ -234,7 +287,11 @@ a {
 }
 
 .submit:hover {
-  background-color: #0d0d0d;
+  background-color: #162138;
+}
+
+.signup {
+  display: flex;
 }
 
 .email-form {
@@ -242,6 +299,10 @@ a {
   border: none;
   padding: 5px 10px;
   border-radius: 5px 0 0 5px;
+}
+
+.email-form, .submit {
+  height: 30px;
 }
 
 .socials-container {
@@ -255,15 +316,18 @@ a {
   display: flex;
   margin-right: 10px;
 }
+.socials-container .socials-column-2 {
+  margin-left: 15px;
+}
 .socials-container svg {
   height: 25px;
   fill: #fff;
-  margin: auto 10px 5px 0;
+  margin: auto 10px auto 0;
 }
 
 .copyright-container {
   display: flex;
-  background-color: black;
+  background-color: #0f1626;
 }
 .copyright-container p {
   color: #fff;

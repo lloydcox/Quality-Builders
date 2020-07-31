@@ -19,11 +19,33 @@
 
 .footer-column-1 {
     padding: 0 30px;
+    p {
+        margin: 6px 0;
+    }
+    p:first-of-type {
+        margin: 15px 0 6px 0;
+    }
 }
 
 .footer-column-2 {
     ul {
-        // list-style-image: url(../Imgs/icons/iconfinder_phone_1608790.svg)
+        list-style-image: url('../Imgs/icons/List icon arrow.svg');
+        padding-left: 20px;
+        li {
+            padding: 1px 0;
+        }
+    }
+    li::marker {
+        fill: $white;
+        height: 5px;
+    } 
+}
+
+.social {
+    display: flex;
+    margin-bottom: 5px;
+    a {
+        margin: auto auto auto 0;
     }
 }
 
@@ -38,12 +60,18 @@
 .submit:hover {
     background-color: lighten($black, 5%);
 }
-
+.signup {
+    display: flex;
+}
 .email-form {
     width: 180px;
     border: none;
     padding: 5px 10px;
     border-radius: 5px 0 0 5px;
+}
+
+.email-form, .submit {
+    height: 30px;
 }
 
 .socials-container {
@@ -57,9 +85,13 @@
             margin-right: 10px;
         }
     }
+
+    .socials-column-2 {
+        margin-left: 15px;
+    }
     svg {
         height: 25px;
         fill: $white;
-        margin: auto 10px 5px 0;
+        margin: auto 10px auto 0;
     }
 }

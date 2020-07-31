@@ -28,9 +28,6 @@
             padding: 20px 15px;
         }
     }    
-   .drop-nav ul li {
-        display: block;
-    }
     margin: auto 0 auto auto;
 }
 
@@ -43,9 +40,21 @@
     ul {
         padding: 0;
     }
+    ul li {
+        display: flex;
+        padding: 0;
+        a {
+            padding: 10px 10px;
+        }
+    }
+
 }
 .services {
     position: relative;
+}
+
+.services, .drop-nav {
+    width: 150px;
 }
 
 .services:hover {
