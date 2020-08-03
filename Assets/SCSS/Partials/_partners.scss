@@ -1,0 +1,44 @@
+
+// CSS for Partners section 
+
+.partners-container {
+    display: flex;
+    justify-content: center;
+}
+
+.partners-heading {
+    position: relative;
+}
+
+.partners {
+    padding-bottom: 30px;
+}
+
+.partners-title {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.partners-heading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 165px;
+    top: 45px;
+    height: 3px;        
+    background-color: lightgray;
+} 
+
+.partner-1 {
+    display: none !important;
+}
+
+/* -------- Hover text appears ---- */
+ 
+.partner:hover .partner1 {
+    display: none !important;
+}
+
+.partner:hover .partner-1 {
+    display: block !important;
+}
