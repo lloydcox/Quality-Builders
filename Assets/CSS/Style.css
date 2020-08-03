@@ -1,25 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap%27");
+.main-carousel .slick-next {
+  top: 200px;
+  right: 150px;
+  z-index: 60000;
+}
+
+.main-carousel .slick-prev {
+  top: 200px;
+  left: 50px;
+  z-index: 60000;
+}
+
 .background {
-  background-image: url("/Quality-Builders/Assets/Imgs/pictures/roof.jfif");
+  height: 80vh;
+}
+
+.background-img {
+  float: right;
+  background-size: contain;
+  height: auto;
+  max-width: 100%;
+}
+
+.divider-border {
+  z-index: 9;
+  background-color: white;
+  clip-path: polygon(0% 0%, 39.5% 0, 50.5% 50%, 39.5% 100%, 0% 100%);
 }
 
 .divider {
+  height: 80vh;
   background-color: orange;
-  display: block;
+  clip-path: polygon(0% 0%, 39% 0, 50% 50%, 39% 100%, 0% 100%);
 }
 
 .divider-block {
-  margin-left: 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-content: center;
+  color: white;
+  height: 100%;
+}
+
+.divider-block h1 {
+  white-space: nowrap;
+  font-size: 3em;
+  position: relative;
+}
+
+.divider-block h5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 450px;
+  bottom: 50px;
+  height: 3px;
+  background-color: white;
+}
+
+.divider-block h5 {
+  font-size: 1.5em;
+  position: relative;
+  white-space: nowrap;
+}
+
+.divider-block p {
+  font-size: 1.1em;
+  letter-spacing: 2px;
 }
 
 .divider-contact-btn {
   background-color: white;
-  padding: 15px 0;
-  width: 20%;
+  padding: 15px 10px;
+  box-shadow: inset 0 0 5px orange;
+  border: 3px  orange;
+  font-size: 1.5em;
+  width: 93%;
 }
 
 .partners-container {
@@ -74,6 +131,9 @@
 .container {
   align-self: center;
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: inherit;
 }
 
 .services-title {
@@ -115,7 +175,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
+  width: 32%;
   height: auto;
   position: relative;
   align-items: center;
@@ -149,9 +209,28 @@
   line-height: 1.15em;
 }
 
-.slick-prev:before,
+.slick-next {
+  right: -150px;
+  top: 15px;
+}
+
+.slick-prev {
+  left: -150px;
+  top: 50px;
+}
+
+.slick-prev:before {
+  content: "<";
+  color: black;
+  font-size: 100px;
+  opacity: 0.15;
+}
+
 .slick-next:before {
-  color: yellow;
+  content: ">";
+  color: black;
+  font-size: 100px;
+  opacity: 0.15;
 }
 
 .testimonials-container {
@@ -188,8 +267,13 @@
   color: black;
   position: absolute;
   left: 1140px;
+  margin-top: 20px;
 }
 
 .client-testimonial {
   font-size: 1.5em;
+}
+
+.testimonial-p {
+  padding: 10px 0;
 }

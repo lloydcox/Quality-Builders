@@ -1,5 +1,15 @@
     // Carousel scriipts 
 
+$(document).ready(function () {
+$('.main-carousel').slick({
+  autoplay: true,
+  arrows: true,
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
 
 $('.partners').slick({
   infinite: true,
@@ -36,11 +46,12 @@ $('.partners').slick({
 });
     
 $('.testimonials').slick({
-  // autoplay: true,
+  autoplay: true,
   arrows: false,
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 1000,
   fade: true,
   cssEase: 'linear'
+});
 });

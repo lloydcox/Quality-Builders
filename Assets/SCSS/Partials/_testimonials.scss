@@ -8,6 +8,7 @@
 
 .testimonial-title {
     margin-bottom: 60px;
+
 }
 
 .blockquote {
@@ -33,9 +34,14 @@
     font-size:100px;
     color: black;
     position: absolute;
-    left: 1140px
+    left: 1140px;
+    margin-top: 20px;
 }
 
 .client-testimonial {
     font-size: 1.5em;
+}
+
+.testimonial-p {
+    padding: 10px 0;
 }

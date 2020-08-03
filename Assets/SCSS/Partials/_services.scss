@@ -11,6 +11,9 @@
 .container {
     align-self: center;
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: inherit;
 }
 .services-title {
     display: flex;
@@ -52,7 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 32%;
     height: auto; 
     position: relative;
     align-items: center;
@@ -85,8 +88,29 @@
     }
 }
 
-.slick-prev:before,
-.slick-next:before {
-    color: yellow;
-
+.slick-next {
+    right: -150px;
+    top: 15px;
 }
+
+.slick-prev {
+    left: -150px;
+    top: 50px;
+}
+
+
+
+.slick-prev:before {
+    content: "<";
+    color: black;
+    font-size: 100px;
+    opacity: 0.15;
+  }
+  
+  .slick-next:before {
+    content: ">";
+    color: black;
+    font-size: 100px;
+    opacity: 0.15;
+  }
+  
