@@ -1,21 +1,19 @@
 // Main Carousel CSS
 
 .main-carousel .slick-next {
-    top: 200px;
-    right: 150px;
+    top: 42%;
+    right: 5%;
     z-index: 60000;
 }
 
 .main-carousel .slick-prev {
-    top: 200px;
-    left: 50px;
+    top: 42%;
+    left: 5%;
     z-index: 60000;
 }
 
 .background {
     height: 80vh;
-    // display: flex;
-    // justify-content: space-between;
 }
 
 .background-img {

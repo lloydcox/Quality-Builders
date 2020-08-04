@@ -78,6 +78,7 @@ a {
   background-color: #f2a100;
   top: 58px;
   left: 0px;
+  z-index: 9999999999;
 }
 
 .drop-nav ul {
@@ -242,7 +243,7 @@ a {
 
 .get-in-touch-content {
   display: flex;
-  margin: 0px auto;
+  margin: 0px 10px;
   width: 1200px;
 }
 
@@ -453,14 +454,14 @@ a {
 }
 
 .main-carousel .slick-next {
-  top: 200px;
-  right: 150px;
+  top: 42%;
+  right: 5%;
   z-index: 60000;
 }
 
 .main-carousel .slick-prev {
-  top: 200px;
-  left: 50px;
+  top: 42%;
+  left: 5%;
   z-index: 60000;
 }
 
@@ -573,7 +574,31 @@ a {
   display: block !important;
 }
 
-.services {
+.slick-next {
+  right: -150px;
+  top: 15px;
+}
+
+.slick-prev {
+  left: -150px;
+  top: 15px;
+}
+
+.slick-prev:before {
+  content: "<";
+  color: black;
+  font-size: 100px;
+  opacity: 0.15;
+}
+
+.slick-next:before {
+  content: ">";
+  color: black;
+  font-size: 100px;
+  opacity: 0.15;
+}
+
+.services1 {
   background-color: orange;
   display: flex;
   justify-content: center;
@@ -599,8 +624,9 @@ a {
   width: 180px;
   justify-content: center;
   flex: 1 0 auto;
-  margin-right: 30px;
+  margin-right: 50px;
   font-size: 2em;
+  white-space: nowrap;
 }
 
 .service-title-text {
@@ -660,30 +686,6 @@ a {
 .text-section p {
   font-size: 1.35em;
   line-height: 1.15em;
-}
-
-.slick-next {
-  right: -150px;
-  top: 15px;
-}
-
-.slick-prev {
-  left: -150px;
-  top: 50px;
-}
-
-.slick-prev:before {
-  content: "<";
-  color: black;
-  font-size: 100px;
-  opacity: 0.15;
-}
-
-.slick-next:before {
-  content: ">";
-  color: black;
-  font-size: 100px;
-  opacity: 0.15;
 }
 
 .testimonials-container {

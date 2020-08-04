@@ -1,6 +1,6 @@
 // Services section styles
 
-.services {
+.services1 {
     background-color: orange;
     display: flex;
     justify-content: center;
@@ -20,14 +20,14 @@
     justify-content: space-between;
 }
 
-
 .service-title {
     position: relative;
     width: 180px;
     justify-content: center;
     flex: 1 0 auto;
-    margin-right: 30px;
+    margin-right: 50px;
     font-size: 2em;
+    white-space: nowrap;
 }
 
 .service-title-text {
@@ -62,7 +62,6 @@
     img {
         width: 100%;
         height: 240px;
-
     }
 }
 
@@ -88,29 +87,5 @@
     }
 }
 
-.slick-next {
-    right: -150px;
-    top: 15px;
-}
 
-.slick-prev {
-    left: -150px;
-    top: 50px;
-}
-
-
-
-.slick-prev:before {
-    content: "<";
-    color: black;
-    font-size: 100px;
-    opacity: 0.15;
-  }
-  
-  .slick-next:before {
-    content: ">";
-    color: black;
-    font-size: 100px;
-    opacity: 0.15;
-  }
   
