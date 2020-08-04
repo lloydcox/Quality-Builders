@@ -1,0 +1,67 @@
+.welcome-container {
+    display: flex;
+}
+
+.welcome-content {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    .column-1, .column-2 {
+        display: flex;
+        width: 50%;
+        padding: 15px;
+    }
+    .column-1 {
+        flex-direction: column;
+        h2 {
+            margin-bottom: 5px;
+            font-size: 32px;
+        }
+    }
+}
+
+.flat-divider {
+    height: 2px;
+    width: 300px;
+    background-color: $divider;
+}
+
+.welcome-images {
+    border: orange 15px solid;
+    padding: 8px;
+    width: 600px;
+}
+
+.welcome-bottom-imgs {
+    display: flex;
+    padding-top: 2px;
+}
+
+.top-img {
+    height: 400px;
+    width: 562px;
+    // background-color: $white;
+    background-image: url('../Imgs/pictures/house-plans.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bottom-img-1 {
+    height: 200px;
+    width: 280px;
+    margin-right: 1px;
+    background-color: $white;
+    background-image: url('../Imgs/pictures/plans.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom-img-2 {
+    height: 200px;
+    width: 280px;
+    margin-left: 1px;
+    background-color: $white;
+    background-image: url('../Imgs/pictures/grinder.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
