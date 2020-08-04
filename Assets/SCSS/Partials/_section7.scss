@@ -1,0 +1,35 @@
+.get-in-touch-container {
+    display: flex;
+    padding: 20px 0;
+    background-color: $black;
+    color: $light-text;
+    a {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    p {
+        padding-right: 50px;
+        margin: 12px 0;
+    }
+}
+.get-in-touch-btn {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 3px solid orange;
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    &:hover {
+        background-color: darken($white, 5%);
+    }
+}
+
+.get-in-touch-content {
+    display: flex;
+    margin: 0px auto;
+    width: 1200px;
+}

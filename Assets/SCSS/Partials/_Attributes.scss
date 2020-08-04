@@ -1,8 +1,27 @@
+// ---- Colours ---- // 
+
+$orange: #f2a100;
+$black: #0f1626;
+$white: #fff;
+$light-text: #fff;
+$dark-text: #0f1626;
+$divider: gray;
+$gray-text: gray;
+$yellow: yellow;
 
 
+// ---- horizontal margins ----//
+$margin-h: 50px;
 
+// ---- fonts ---- // 
 
+// body font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+// font-family: 'Noto Sans JP', sans-serif;
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap%27');
-
-// font-family: 'Noto Sans JP', sans-serif; 
+// headings font
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+// font-family: 'Lexend Deca', sans-serif;
+* {
+    box-sizing: border-box;
+}
