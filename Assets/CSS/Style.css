@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 .header-container, .get-in-touch-btn {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   letter-spacing: 0.01px;
   font-weight: bolder;
 }
@@ -22,7 +22,6 @@ a {
 .footer-container {
   font-weight: bolder;
 }
-
 .footer-container p, .footer-container a, .footer-container .btn {
   font-size: 14px;
 }
@@ -45,11 +44,9 @@ a {
 .qb-logo {
   display: flex;
 }
-
 .qb-logo a {
   display: flex;
 }
-
 .qb-logo img {
   margin: auto auto auto 0;
   width: 260px;
@@ -58,16 +55,13 @@ a {
 .main-nav {
   margin: auto 0 auto auto;
 }
-
 .main-nav ul li {
   display: inline-block;
   padding: 20px 15px;
 }
-
 .main-nav ul li:hover {
   background: #f2f2f2;
 }
-
 .main-nav ul li a {
   padding: 20px 15px;
 }
@@ -80,16 +74,13 @@ a {
   left: 0px;
   z-index: 9999999999;
 }
-
 .drop-nav ul {
   padding: 0;
 }
-
 .drop-nav ul li {
   display: flex;
   padding: 0;
 }
-
 .drop-nav ul li a {
   padding: 10px 10px;
 }
@@ -111,7 +102,6 @@ a {
   background-color: #f2a100;
   margin: auto 0 auto 30px;
 }
-
 .telephone-contact .circle {
   background-color: #fff;
   height: 40px;
@@ -119,13 +109,11 @@ a {
   display: flex;
   margin: 3px 7px;
 }
-
 .telephone-contact svg {
   height: 28px;
   fill: #f2a100;
   margin: auto;
 }
-
 .telephone-contact a {
   display: flex;
   align-items: center;
@@ -146,17 +134,14 @@ a {
   width: 1200px;
   margin: 0 auto;
 }
-
 .welcome-content .column-1, .welcome-content .column-2 {
   display: flex;
   width: 50%;
   padding: 15px;
 }
-
 .welcome-content .column-1 {
   flex-direction: column;
 }
-
 .welcome-content .column-1 h2 {
   margin-bottom: 5px;
   font-size: 32px;
@@ -213,14 +198,12 @@ a {
   background-color: #0f1626;
   color: #fff;
 }
-
 .get-in-touch-container a {
   color: black;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
-
 .get-in-touch-container p {
   padding-right: 50px;
   margin: 12px 0;
@@ -236,7 +219,6 @@ a {
   width: 400px;
   text-align: center;
 }
-
 .get-in-touch-btn:hover {
   background-color: #f2f2f2;
 }
@@ -252,7 +234,6 @@ a {
   background-color: #f2a100;
   padding: 20px 0;
 }
-
 .footer-container a:hover {
   text-decoration: underline;
 }
@@ -270,11 +251,9 @@ a {
 .footer-column-1 {
   padding: 0 30px;
 }
-
 .footer-column-1 p {
   margin: 6px 0;
 }
-
 .footer-column-1 p:first-of-type {
   margin: 15px 0 6px 0;
 }
@@ -283,11 +262,9 @@ a {
   list-style-image: url("../Imgs/icons/List icon arrow.svg");
   padding-left: 20px;
 }
-
 .footer-column-2 ul li {
   padding: 1px 0;
 }
-
 .footer-column-2 li::marker {
   fill: #fff;
   height: 5px;
@@ -297,7 +274,6 @@ a {
   display: flex;
   margin-bottom: 5px;
 }
-
 .social a {
   margin: auto auto auto 0;
 }
@@ -333,21 +309,17 @@ a {
 .socials-container {
   display: flex;
 }
-
 .socials-container .socials-column-1, .socials-container .socials-column-2 {
   display: flex;
   flex-direction: column;
 }
-
 .socials-container .socials-column-1 div, .socials-container .socials-column-2 div {
   display: flex;
   margin-right: 10px;
 }
-
 .socials-container .socials-column-2 {
   margin-left: 15px;
 }
-
 .socials-container svg {
   height: 25px;
   fill: #fff;
@@ -358,7 +330,6 @@ a {
   display: flex;
   background-color: #0f1626;
 }
-
 .copyright-container p {
   color: #fff;
   margin: auto;
@@ -369,13 +340,13 @@ a {
 .form h2 {
   text-align: center;
   background-color: #f2a100;
+  color: #fff;
   padding: 30px 0;
   margin: 0;
 }
-
 .form p {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 .form-container {
@@ -389,22 +360,18 @@ a {
   width: 1200px;
   margin: auto;
 }
-
 .form-content form {
   padding-left: 30px;
 }
-
 .form-content .img {
   border: solid 5px #f2a100;
   margin: 0 auto;
 }
-
 .form-content .column-1, .form-content .column-2 {
   display: flex;
   flex-direction: column;
   width: 600px;
 }
-
 .form-content input, .form-content textarea {
   display: block;
   background: rgba(255, 255, 255, 0.1);
@@ -420,35 +387,35 @@ a {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
   width: 80%;
+  border-radius: 2px;
 }
-
 .form-content .btn {
   display: block;
   border: none;
   background-color: yellow;
   padding: 10px 20px;
   border-radius: 4px;
+  margin-top: 30px;
 }
-
+.form-content .btn:hover {
+  background-color: #ffff99;
+}
 .form-content label {
   display: block;
   margin-bottom: 8px;
 }
-
 .form-content .checkbox, .form-content .gdpr {
   display: inline-block;
 }
-
 .form-content .checkbox {
   width: auto;
   display: inline-block;
 }
-
 .form-content .gdpr {
   margin: 16px 0;
+  padding-left: 5px;
   font-size: 14px;
 }
-
 .form-content .gdpr a:hover {
   text-decoration: underline;
 }
@@ -496,13 +463,11 @@ a {
   color: white;
   height: 100%;
 }
-
 .divider-block h1 {
   white-space: nowrap;
   font-size: 3em;
   position: relative;
 }
-
 .divider-block h5::before {
   content: "";
   position: absolute;
@@ -512,13 +477,11 @@ a {
   height: 3px;
   background-color: white;
 }
-
 .divider-block h5 {
   font-size: 1.5em;
   position: relative;
   white-space: nowrap;
 }
-
 .divider-block p {
   font-size: 1.1em;
   letter-spacing: 2px;
@@ -528,7 +491,7 @@ a {
   background-color: white;
   padding: 15px 10px;
   box-shadow: inset 0 0 5px orange;
-  border: 3px  orange;
+  border: 3px orange;
   font-size: 1.5em;
   width: 93%;
 }
@@ -659,7 +622,6 @@ a {
   position: relative;
   align-items: center;
 }
-
 .service img {
   width: 100%;
   height: 240px;
@@ -678,11 +640,9 @@ a {
   text-align: center;
   width: 90%;
 }
-
 .text-section h3 {
   font-size: 1.75em;
 }
-
 .text-section p {
   font-size: 1.35em;
   line-height: 1.15em;
@@ -758,7 +718,6 @@ a {
   position: relative;
   align-items: center;
 }
-
 .services-service img {
   width: 100%;
   height: 500px;
@@ -777,11 +736,9 @@ a {
   text-align: center;
   width: 100%;
 }
-
 .services-text-section h3 {
   font-size: 1.75em;
 }
-
 .services-text-section p {
   font-size: 1.35em;
   line-height: 1.15em;
@@ -860,3 +817,13 @@ a {
   border-radius: 50%;
   background-color: #f2a100;
 }
+
+.about h2 {
+  text-align: center;
+  background-color: #f2a100;
+  color: #fff;
+  padding: 30px 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=Style.css.map */

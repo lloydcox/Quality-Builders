@@ -44,15 +44,16 @@
             </div>
         </div>
     </header>
-   <!-- New content -->
+   <!-- Contact form content -->
     <main class="form">
-        <h2>Leave Us a Message</h2>
+        <h2>Leave Us a Message!</h2>
         <div class="form-container container">
             <div class="form-content">
                 <div class="column-1">
                     <div class="img">
                         <img src="Assets/Imgs/pictures/contact form placeholder.jpg">
                     </div>
+                    <p>We aim to get back to you within 2 working days.</p>
                 </div>
                 <div class="column-2">
                     <form method="POST">
@@ -66,17 +67,30 @@
                         <textarea type="text" id="form-message"></textarea>
                         <input class="checkbox" type="checkbox"> 
                         <p class="gdpr">By ticking this box you confirm that you accept our <a href="#" target="_blank"><strong>Privacy Policy</strong></a></p>
+                        <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY"></div>
                         <button class= "btn" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
-            <p>We aim to get back to you within 2 working days.</p>
         </div>
     </main>
-   
+    <!-- - section 7 - -->
+   <div class="get-in-touch-container">
+       <div class="container">
+            <div class="get-in-touch-content">
+                <div class="get-in-touch-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis sodales tortor. Proin consequat placerat dolor non pharetra. Nam ac justo tortor. </p>
+                </div>
+                <div class="get-in-touch-btn">
+                    <a href="contact-form.html">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- section 8 -->
     <footer>
-        <div class="footer-container container">
-            <div class="footer-content">
+        <div class="footer-container">
+            <div class="footer-content container">
                 <div class="footer-column-1">
                     <h3>Contact Us</h3>
                     <p>Contact our team at QualityBuilders via:</p>
@@ -88,12 +102,12 @@
                 <div class="footer-column-2">
                     <h3>Sections</h3>
                     <ul>
-                        <li><a href="#">Construction</a></li>
-                        <li><a href="#">Architecture</a></li>
-                        <li><a href="#">Installation</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Terms & Conditions - Privacy Policy</a></li>
+                        <li><a href="services.html#Construction">Construction</a></li>
+                        <li><a href="services.html#Architecture">Architecture</a></li>
+                        <li><a href="services.html#Installation">Installation</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="Assets/Quality Builders Privacy Policy.pdf" target="_blank">Terms & Conditions - Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column-3">
@@ -135,5 +149,6 @@
         <p>Copyright &copy; QUALITYBUILDERS. All Rights Reserved 2018.</p>
     </div>
 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 </html>
