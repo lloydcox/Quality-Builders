@@ -6,7 +6,7 @@ $('.main-carousel').slick({
   arrows: true,
   dots: false,
   infinite: true,
-  speed: 500,
+  speed: 1000,
   fade: true,
   cssEase: 'linear'
 });
@@ -53,5 +53,16 @@ $('.testimonials').slick({
   speed: 2000,
   fade: true,
   cssEase: 'linear'
+});
+
+
+$('.testimonials-1').slick({
+  autoplay: false,
+  arrows: false,
+  dots: true,
+  infinite: true,
+  speed: 2500,
+  fade: true,
+  cssEase: 'linear',
 });
 });
