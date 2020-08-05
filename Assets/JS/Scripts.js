@@ -6,7 +6,7 @@ $('.main-carousel').slick({
   arrows: true,
   dots: false,
   infinite: true,
-  speed: 500,
+  speed: 1000,
   fade: true,
   cssEase: 'linear'
 });
@@ -50,8 +50,19 @@ $('.testimonials').slick({
   arrows: false,
   dots: true,
   infinite: true,
-  speed: 1000,
+  speed: 2000,
   fade: true,
   cssEase: 'linear'
+});
+
+
+$('.testimonials-1').slick({
+  autoplay: true,
+  arrows: false,
+  dots: true,
+  infinite: true,
+  speed: 1500,
+  fade: true,
+  cssEase: 'linear',
 });
 });
