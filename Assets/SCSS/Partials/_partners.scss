@@ -42,3 +42,29 @@
 .partner:hover .partner-1 {
     display: block !important;
 }
+
+.slick-next {
+    right: -150px;
+    top: 15px;
+}
+
+.slick-prev {
+    left: -150px;
+    top: 15px;
+}
+
+
+
+.slick-prev:before {
+    content: "<";
+    color: black;
+    font-size: 100px;
+    opacity: 0.15;
+  }
+  
+  .slick-next:before {
+    content: ">";
+    color: black;
+    font-size: 100px;
+    opacity: 0.15;
+  }

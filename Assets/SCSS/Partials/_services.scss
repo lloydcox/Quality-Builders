@@ -1,6 +1,6 @@
 // Services section styles
 
-.services {
+.services1 {
     background-color: orange;
     display: flex;
     justify-content: center;
@@ -20,14 +20,14 @@
     justify-content: space-between;
 }
 
-
 .service-title {
     position: relative;
     width: 180px;
     justify-content: center;
     flex: 1 0 auto;
-    margin-right: 30px;
+    margin-right: 50px;
     font-size: 2em;
+    white-space: nowrap;
 }
 
 .service-title-text {
@@ -62,7 +62,6 @@
     img {
         width: 100%;
         height: 240px;
-
     }
 }
 
@@ -71,7 +70,6 @@
     background-color: black;
     color: white;
     border-radius: 50%;
-    // position: absolute;
     margin: -50px 0;
 }
 
@@ -88,29 +86,103 @@
     }
 }
 
-.slick-next {
-    right: -150px;
-    top: 15px;
+// ------------Service page CSS ---------------
+
+.services-services1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 30px 0;
+    flex-direction: column;
+    align-content: center;
 }
 
-.slick-prev {
-    left: -150px;
-    top: 50px;
+.services-top {
+    background-color: $orange;
+    margin-bottom: 30px;
 }
 
+.services-services-title {
+    display: flex;
+    justify-content: space-between;
+}
 
+.service-title {
+    position: relative;
+    width: 180px;
+    justify-content: center;
+    flex: 1 0 auto;
+    margin-right: 50px;
+    font-size: 2em;
+    white-space: nowrap;
+}
 
-.slick-prev:before {
-    content: "<";
+.service-title-text {
+        font-size: 1.35em;
+}
+
+.service-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 125px;
+    top: 45px;
+    height: 3px;        
+    background-color: white;
+} 
+
+.services-section-1 {
+    border: orange 15px solid;
+    padding: 8px;
+    width: 1250px;
+    margin: 10px auto;
+}
+
+.services-services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: black;
-    font-size: 100px;
-    opacity: 0.15;
-  }
-  
-  .slick-next:before {
-    content: ">";
-    color: black;
-    font-size: 100px;
-    opacity: 0.15;
-  }
+    margin-bottom: 20px;
+    border: solid, 3px $white;
+    background: linear-gradient(to bottom, white 50%, orange 50%) bottom;
+}
+
+.services-service {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto; 
+    position: relative;
+    align-items: center;  
+    img {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.services-service-icon {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin: -50px 0;
+}
+
+.services-text-section {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    h3 {
+        font-size: 1.75em;
+    }
+    p {
+        font-size: 1.35em;
+        line-height: 1.15em;
+        margin: 30px 30px;
+    }
+}
+
   
