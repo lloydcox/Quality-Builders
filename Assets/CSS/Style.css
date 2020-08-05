@@ -688,6 +688,106 @@ a {
   line-height: 1.15em;
 }
 
+.services-services1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 30px 0;
+  flex-direction: column;
+  align-content: center;
+}
+
+.services-top {
+  background-color: #f2a100;
+  margin-bottom: 30px;
+}
+
+.services-services-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-title {
+  position: relative;
+  width: 180px;
+  justify-content: center;
+  flex: 1 0 auto;
+  margin-right: 50px;
+  font-size: 2em;
+  white-space: nowrap;
+}
+
+.service-title-text {
+  font-size: 1.35em;
+}
+
+.service-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 125px;
+  top: 45px;
+  height: 3px;
+  background-color: white;
+}
+
+.services-section-1 {
+  border: orange 15px solid;
+  padding: 8px;
+  width: 1250px;
+  margin: 10px auto;
+}
+
+.services-services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+  margin-bottom: 20px;
+  border: solid, 3px #fff;
+  background: linear-gradient(to bottom, white 50%, orange 50%) bottom;
+}
+
+.services-service {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  align-items: center;
+}
+
+.services-service img {
+  width: 100%;
+  height: 500px;
+}
+
+.services-service-icon {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  margin: -50px 0;
+}
+
+.services-text-section {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.services-text-section h3 {
+  font-size: 1.75em;
+}
+
+.services-text-section p {
+  font-size: 1.35em;
+  line-height: 1.15em;
+  margin: 30px 30px;
+}
+
 .testimonials-container {
   display: flex;
   justify-content: center;
@@ -733,7 +833,30 @@ a {
   padding: 10px 0;
 }
 
+.testimonials-top {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.testimonial-headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.testimonials-section1 {
+  border: orange 15px solid;
+  padding: 8px;
+  width: 1250px;
+  margin: 10px auto;
+}
+
 .client-1 {
-  margin: auto;
+  margin: 40px auto auto;
   padding: 20px;
+  border-radius: 50%;
+  background-color: #f2a100;
 }

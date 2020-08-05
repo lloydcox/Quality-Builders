@@ -57,11 +57,11 @@ $('.testimonials').slick({
 
 
 $('.testimonials-1').slick({
-  autoplay: false,
+  autoplay: true,
   arrows: false,
   dots: true,
   infinite: true,
-  speed: 2500,
+  speed: 1500,
   fade: true,
   cssEase: 'linear',
 });

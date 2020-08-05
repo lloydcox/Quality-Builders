@@ -46,7 +46,32 @@
     padding: 10px 0;
 }
 
+//  Testimonial page css
+
+.testimonials-top {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.testimonial-headline {
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonials-section1 {
+    border: orange 15px solid;
+    padding: 8px;
+    width: 1250px;
+    margin: 10px auto;    
+}
+
 .client-1 {
-    margin: auto;
+    margin:  40px auto auto;
     padding: 20px;
+    border-radius: 50%;
+    background-color: $orange;
 }
