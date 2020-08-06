@@ -1,0 +1,62 @@
+// Testimonials styles
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.testimonial-title {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.testimonial-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 190px;
+    top: 50px;
+    height: 3px;        
+    background-color: $divider;
+} 
+
+.blockquote {
+    position: relative;
+}
+    
+.blockquote p {
+    font-size:21px;
+    margin-top: 100px;
+    text-align: center;
+}
+    
+.blockquote p:before { 
+    content: open-quote;
+    font-weight: bold;
+    font-size:100px;
+    color: $black;
+    position: absolute;
+    top: -75px;
+    left: 0;
+} 
+
+.blockquote p:after { 
+    content: close-quote;
+    font-weight: bold;
+    font-size:100px;
+    color: $black;
+    position: absolute;
+    left: 1140px;
+    margin-top: 20px;
+}
+
+.client-testimonial {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.testimonial-p {
+    padding: 10px 0;
+}
