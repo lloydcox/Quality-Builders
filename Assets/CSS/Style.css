@@ -312,7 +312,7 @@ a {
   width: 165px;
   top: 45px;
   height: 3px;
-  background-color: #d4d4d4;
+  background-color: gray;
 }
 
 .partner-1 {
@@ -450,6 +450,17 @@ a {
 
 .testimonial-title {
   margin-bottom: 60px;
+  position: relative;
+}
+
+.testimonial-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 190px;
+  top: 50px;
+  height: 3px;
+  background-color: gray;
 }
 
 .blockquote {
@@ -458,6 +469,7 @@ a {
 
 .blockquote p {
   font-size: 21px;
+  margin-top: 100px;
 }
 
 .blockquote p:before {
@@ -466,7 +478,7 @@ a {
   font-size: 100px;
   color: #0f1626;
   position: absolute;
-  bottom: -50px;
+  bottom: -90px;
 }
 
 .blockquote p:after {
