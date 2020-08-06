@@ -14,6 +14,22 @@
     flex-direction: column;
 }
 
+.testimonial-title-1 {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.testimonial-title-1::after {
+    content: "";
+    position: absolute;
+    left: 41%;
+    width: 213px;
+    top: 50px;
+    height: 3px;        
+    background-color: $divider;
+} 
+
 .testimonials-section1 {
     border: $orange 15px solid;
     padding: 8px;

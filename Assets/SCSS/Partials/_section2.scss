@@ -1,13 +1,13 @@
 // Main Carousel CSS
 
 .main-carousel .slick-next {
-    top: 42%;
+    top: 43%;
     right: 5%;
     z-index: 60000;
 }
 
 .main-carousel .slick-prev {
-    top: 42%;
+    top: 43%;
     left: 5%;
     z-index: 60000;
 }
@@ -18,9 +18,11 @@
 
 .background-img {
     float: right;
-    background-size: contain;
-    height: auto;
-    max-width: 100%;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    width: 1200px;
+    background-repeat: no-repeat;
 }
 
 .divider-border {
@@ -42,6 +44,7 @@
     align-content: center;
     color: $white;
     height: 100%;
+    white-space: nowrap;
     h1 {
         white-space: nowrap;
         font-size: 3em;
@@ -62,16 +65,18 @@
     } p {
         font-size: 1.1em;
         letter-spacing: 2px;
+        margin: 0 0 30px;
     }
 }
 
 .divider-contact-btn {
     background-color: $white;
-    padding: 15px 10px;
+    padding: 15px 55px 15px 55px;
     box-shadow: inset 0 0 5px $orange;
     border: 3px  $orange;
     font-size: 1.5em;
-    width: 93%;
+    text-align: center;
+    line-height: 30px;
 }
 
 
