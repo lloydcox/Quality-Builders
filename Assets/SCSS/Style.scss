@@ -2,6 +2,7 @@
 
 @import 'partials/_Attributes.scss';
 @import 'partials/_typography.scss';
+@import 'partials/media_query_IE';
 @import 'partials/_section1.scss';
 @import 'partials/_section2.scss';
 @import 'partials/_section3.scss';
@@ -11,6 +12,7 @@
 @import 'partials/_section7.scss';
 @import 'partials/_section8.scss';
 @import 'partials/_section9.scss';
+
 
 // Contact form page styles
 @import 'partials/contact-form';

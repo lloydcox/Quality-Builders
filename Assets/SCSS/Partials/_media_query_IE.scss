@@ -1,0 +1,68 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)  { 
+
+    //  Main Carousel 
+
+.divider-border {
+    width: 40vw;
+    // height: 80vh;
+    background: white;
+    position: relative
+         
+}
+
+.divider-border:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;  
+    border-top: 40vh solid transparent;
+    border-bottom: 40vh solid transparent;
+    border-left: 150px solid $white; 
+    }
+
+.divider {
+    background-color: $orange;
+    width: 39.5vw;
+    // height: 80vh;
+    position: relative;
+}
+ 
+.divider:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-top: 40vh solid transparent;
+    border-bottom: 40vh solid transparent;
+    border-left: 150px solid $orange; 
+    }
+}
+
+.divider-block {
+    margin-left: 250px;
+    padding-bottom: 70px;
+}
+
+.main-carousel .slick-next {
+    top: 43%;
+    right: 10%;
+    z-index: 60000;
+}
+
+.main-carousel .slick-prev {
+    top: 43%;
+    left: 5%;
+    z-index: 60000;
+}
+
+// Services 
+
+.services-service-icon {
+    z-index: 10000000000;
+}
+
+// Testimonial page
+
+.testimonials-top {
+    margin-top: 20px;
+}
