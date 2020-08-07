@@ -111,6 +111,7 @@ a {
 .qb-logo img {
   margin: auto auto auto 0;
   width: 260px;
+  height: 33.5px;
 }
 
 .main-nav {
@@ -241,13 +242,11 @@ a {
   height: 100%;
   white-space: nowrap;
 }
-
 .divider-block h1 {
   white-space: nowrap;
   font-size: 3em;
   position: relative;
 }
-
 .divider-block h5::before {
   content: "";
   position: absolute;
@@ -257,13 +256,11 @@ a {
   height: 3px;
   background-color: #fff;
 }
-
 .divider-block h5 {
   font-size: 1.5em;
   position: relative;
   white-space: nowrap;
 }
-
 .divider-block p {
   font-size: 1.1em;
   letter-spacing: 2px;
@@ -326,7 +323,7 @@ a {
 
 .top-img {
   height: 400px;
-  width: 562px;
+  width: 554px;
   background-image: url("../Imgs/pictures/house-plans.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -476,7 +473,6 @@ a {
   position: relative;
   align-items: center;
 }
-
 .service img {
   width: 100%;
   height: 240px;
@@ -495,11 +491,9 @@ a {
   text-align: center;
   width: 90%;
 }
-
 .text-section h3 {
   font-size: 1.75em;
 }
-
 .text-section p {
   font-size: 1.35em;
   line-height: 1.15em;
@@ -576,14 +570,12 @@ a {
   margin-right: auto;
   justify-content: center;
 }
-
 .get-in-touch-container a {
   color: black;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
-
 .get-in-touch-container p {
   padding-right: 50px;
   margin: 12px 0;
@@ -599,7 +591,6 @@ a {
   width: 400px;
   text-align: center;
 }
-
 .get-in-touch-btn:hover {
   background-color: #f2f2f2;
 }
@@ -618,7 +609,6 @@ a {
   margin-right: auto;
   justify-content: center;
 }
-
 .footer-container a:hover {
   text-decoration: underline;
 }
@@ -636,11 +626,9 @@ a {
 .footer-column-1 {
   padding: 0 30px;
 }
-
 .footer-column-1 p {
   margin: 6px 0;
 }
-
 .footer-column-1 p:first-of-type {
   margin: 15px 0 6px 0;
 }
@@ -649,11 +637,9 @@ a {
   list-style-image: url("../Imgs/icons/List icon arrow.svg");
   padding-left: 20px;
 }
-
 .footer-column-2 ul li {
   padding: 1px 0;
 }
-
 .footer-column-2 li::marker {
   fill: #fff;
   height: 5px;
@@ -663,7 +649,6 @@ a {
   display: flex;
   margin-bottom: 5px;
 }
-
 .social a {
   margin: auto auto auto 0;
 }
@@ -699,23 +684,20 @@ a {
 .socials-container {
   display: flex;
 }
-
 .socials-container .socials-column-1, .socials-container .socials-column-2 {
   display: flex;
   flex-direction: column;
 }
-
 .socials-container .socials-column-1 div, .socials-container .socials-column-2 div {
   display: flex;
   margin-right: 10px;
 }
-
 .socials-container .socials-column-2 {
   margin-left: 15px;
 }
-
 .socials-container svg {
   height: 25px;
+  width: 25px;
   fill: #fff;
   margin: auto 10px auto 0;
 }
@@ -726,7 +708,6 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
 .copyright-container p {
   color: #fff;
   margin: auto;
@@ -741,7 +722,6 @@ a {
   padding: 30px 0;
   margin: 0;
 }
-
 .form p {
   text-align: center;
   margin-top: 35px;
@@ -760,22 +740,18 @@ a {
   width: 1200px;
   margin: auto;
 }
-
 .form-content form {
   padding-left: 30px;
 }
-
 .form-content .img {
   border: solid 5px #f2a100;
   margin: 0 auto;
 }
-
 .form-content .column-1, .form-content .column-2 {
   display: flex;
   flex-direction: column;
   width: 600px;
 }
-
 .form-content input, .form-content textarea {
   display: block;
   background: rgba(255, 255, 255, 0.1);
@@ -793,7 +769,6 @@ a {
   width: 80%;
   border-radius: 2px;
 }
-
 .form-content .btn {
   display: block;
   border: none;
@@ -806,27 +781,22 @@ a {
 .form-content .btn:hover {
   background-color: #ffff99;
 }
-
 .form-content label {
   display: block;
   margin-bottom: 8px;
 }
-
 .form-content .checkbox, .form-content .gdpr {
   display: inline-block;
 }
-
 .form-content .checkbox {
   width: auto;
   display: inline-block;
 }
-
 .form-content .gdpr {
   margin: 16px 0;
   padding-left: 5px;
   font-size: 14px;
 }
-
 .form-content .gdpr a:hover {
   text-decoration: underline;
 }
@@ -986,3 +956,10 @@ a {
   padding: 30px 0;
   margin: 0;
 }
+
+.telephone-contact {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Style.css.map */
