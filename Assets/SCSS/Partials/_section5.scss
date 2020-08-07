@@ -11,13 +11,13 @@
 .container {
     align-self: center;
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     height: inherit;
 }
 .services-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .service-title {

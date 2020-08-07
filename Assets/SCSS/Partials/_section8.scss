@@ -2,6 +2,9 @@
     display: flex;
     background-color: $orange;
     padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     a:hover {
         text-decoration: underline;
     }
