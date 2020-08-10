@@ -188,13 +188,13 @@ a {
 
 .main-carousel .slick-next {
   top: 43%;
-  right: 5%;
+  right: 7%;
   z-index: 60000;
 }
 
 .main-carousel .slick-prev {
   top: 43%;
-  left: 5%;
+  left: 7%;
   z-index: 60000;
 }
 
@@ -377,12 +377,12 @@ a {
 }
 
 .slick-next {
-  right: -100px;
+  right: -50px;
   top: 15px;
 }
 
 .slick-prev {
-  left: -150px;
+  left: -50px;
   top: 15px;
 }
 
