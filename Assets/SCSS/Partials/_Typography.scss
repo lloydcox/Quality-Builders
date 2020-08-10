@@ -7,6 +7,10 @@ a {
     color: $black;
 }
 
+.btn {
+    cursor: pointer;
+}
+
 .header-container, .get-in-touch-btn {
     font-family: 'Lexend Deca', sans-serif;
     letter-spacing: 0.01px;
@@ -23,6 +27,6 @@ a {
 .welcome-content {
     p {
         color: $gray-text;
-        font-size: 20px;
+        font-size: 22px;
     }
 }

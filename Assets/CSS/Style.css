@@ -13,6 +13,10 @@ a {
   color: #0f1626;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .header-container, .get-in-touch-btn {
   font-family: "Lexend Deca", sans-serif;
   letter-spacing: 0.01px;
@@ -27,8 +31,8 @@ a {
 }
 
 .welcome-content p {
-  color: gray;
-  font-size: 20px;
+  color: #5a5a5a;
+  font-size: 22px;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -118,20 +122,20 @@ a {
 }
 .main-nav ul li {
   display: inline-block;
-  padding: 20px 15px;
 }
 .main-nav ul li:hover {
   background: #f2f2f2;
 }
 .main-nav ul li a {
-  padding: 20px 15px;
+  padding: 20px 30px;
+  display: inline-block;
 }
 
 .drop-nav {
   display: none;
   position: absolute;
   background-color: #f2a100;
-  top: 58px;
+  top: 59px;
   left: 0px;
   z-index: 9999999999;
 }
@@ -277,9 +281,9 @@ a {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 25px;
 }
 .welcome-content .column-1, .welcome-content .column-2 {
-  display: flex;
   width: 50%;
   padding: 15px;
 }
@@ -288,7 +292,9 @@ a {
 }
 .welcome-content .column-1 h2 {
   margin-bottom: 5px;
-  font-size: 32px;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 0;
 }
 
 .flat-divider {
@@ -489,6 +495,7 @@ a {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .testimonial-title {
@@ -557,7 +564,7 @@ a {
   justify-content: center;
 }
 .get-in-touch-container a {
-  color: black;
+  color: #0f1626;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -572,10 +579,11 @@ a {
   flex-direction: column;
   border-radius: 8px;
   background-color: #fff;
-  border: 3px solid orange;
+  border: 3px solid #f2a100;
   font-size: 20px;
   width: 400px;
   text-align: center;
+  padding: 16px 0;
 }
 .get-in-touch-btn:hover {
   background-color: #f2f2f2;
@@ -730,7 +738,8 @@ a {
   padding-left: 30px;
 }
 .form-content .img {
-  border: solid 5px #f2a100;
+  border: orange 15px solid;
+  padding: 8px;
   margin: 0 auto;
 }
 .form-content .column-1, .form-content .column-2 {

@@ -7,7 +7,7 @@
     margin-right: auto;
     justify-content: center;
     a {
-        color: black;
+        color: $black;
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -22,10 +22,11 @@
     flex-direction: column;
     border-radius: 8px;
     background-color: #fff;
-    border: 3px solid orange;
+    border: 3px solid $orange;
     font-size: 20px;
     width: 400px;
     text-align: center;
+    padding: 16px 0;
     &:hover {
         background-color: darken($white, 5%);
     }
