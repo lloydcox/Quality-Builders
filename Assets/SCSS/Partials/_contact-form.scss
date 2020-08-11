@@ -53,6 +53,9 @@
             margin-bottom: 30px;
             width: 80%;
             border-radius: 2px;
+            &:focus { 
+                box-shadow: inset $about-hover 0px 0px 4px 0px
+               }
         }
         .btn {
             // margin: 0 0 0 15px;
@@ -85,4 +88,8 @@
             text-decoration: underline;
           }
       }
+    //   Javascript styling
+    // .input-active {
+    //     box-shadow: inset $about-hover 2px 0;
+    // }
   }

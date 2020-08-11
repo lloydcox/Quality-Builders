@@ -9,3 +9,15 @@
     margin-top: 30px;
     text-align: center;
 }
+
+.timeline-wrapper img {
+    max-width: 600px;
+}
+
+.timeline-event-content p {
+    float: none;
+    a:hover {
+        text-decoration: underline;
+        color: $about-hover;
+    }
+}

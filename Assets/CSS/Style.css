@@ -671,8 +671,12 @@ a {
   border-radius: 5px 0 0 5px;
 }
 
-.email-form, .submit {
+.email-form {
   height: 30px;
+}
+.email-form:focus {
+  box-shadow: inset #7DBADF 0px 0px 4px 0px;
+  background-color: none;
 }
 
 .socials-container {
@@ -763,6 +767,9 @@ a {
   margin-bottom: 30px;
   width: 80%;
   border-radius: 2px;
+}
+.form-content input:focus, .form-content textarea:focus {
+  box-shadow: inset #7DBADF 0px 0px 4px 0px;
 }
 .form-content .btn {
   display: block;
@@ -951,6 +958,18 @@ a {
 .intro {
   margin-top: 30px;
   text-align: center;
+}
+
+.timeline-wrapper img {
+  max-width: 600px;
+}
+
+.timeline-event-content p {
+  float: none;
+}
+.timeline-event-content p a:hover {
+  text-decoration: underline;
+  color: #7DBADF;
 }
 
 .telephone-contact {

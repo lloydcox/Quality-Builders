@@ -58,17 +58,17 @@
                 <div class="column-2">
                     <form method="POST">
                         <label for="form-name">Name:</label>
-                        <input type="text" id="form-name">
+                        <input type="text" class="text-input" id="form-name">
                         <label for="form-email">Email Address:</label>
-                        <input type="email" id="form-email">
+                        <input type="email" class="text-input" id="form-email">
                         <label for="form-phone-number">Phone Number:</label>
-                        <input type="tel" id="form-phone-number">
+                        <input type="tel" class="text-input" id="form-phone-number">
                         <label for="form-message">Message:</label>
-                        <textarea type="text" id="form-message"></textarea>
+                        <textarea type="text" class="text-input" id="form-message"></textarea>
                         <input class="checkbox" type="checkbox"> 
                         <p class="gdpr">By ticking this box you confirm that you accept our <a href="Assets/Quality_Builders_Privacy_Policy.pdf" target="_blank"><strong>Privacy Policy</strong></a></p>
                         <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY"></div>
-                        <button class= "btn" type="submit">Submit</button>
+                        <button class= "btn submit" type="button">Submit</button>
                     </form>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                         <h3>Contact Us</h3>
                         <p>Contact our team at QualityBuilders via:</p>
                         <p><a href="mailto:email@qualitybuilders.com">email@qualitybuilders.com</a></p>
-                        <p>01234567890</p>
+                        <p><a href="tel:01234567890">01234 567890</a></p>
                         <p>Unit 1, Address Street, City, Country</p>
                         <p>AB12 3CD</p>
                     </div>
@@ -149,8 +149,7 @@
     </div>
 
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-        document.getElementByName(input).onfocus()
+    <script src="Assets/JS/contact-form.js">
     </script>
 </body>
 </html>
