@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 .header-container, .get-in-touch-btn {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   letter-spacing: 0.01px;
   font-weight: bolder;
 }
@@ -22,7 +22,6 @@ a {
 .footer-container {
   font-weight: bolder;
 }
-
 .footer-container p, .footer-container a, .footer-container .btn {
   font-size: 14px;
 }
@@ -38,8 +37,9 @@ a {
     background: white;
     position: relative;
   }
+
   .divider-border:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 100%;
@@ -47,13 +47,15 @@ a {
     border-bottom: 40vh solid transparent;
     border-left: 150px solid #fff;
   }
+
   .divider {
     background-color: #f2a100;
     width: 39.5vw;
     position: relative;
   }
+
   .divider:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 100%;
@@ -62,7 +64,6 @@ a {
     border-left: 150px solid #f2a100;
   }
 }
-
 .divider-block {
   margin-left: 250px;
   padding-bottom: 70px;
@@ -103,11 +104,9 @@ a {
 .qb-logo {
   display: flex;
 }
-
 .qb-logo a {
   display: flex;
 }
-
 .qb-logo img {
   margin: auto auto auto 0;
   width: 260px;
@@ -117,16 +116,13 @@ a {
 .main-nav {
   margin: auto 0 auto auto;
 }
-
 .main-nav ul li {
   display: inline-block;
   padding: 20px 15px;
 }
-
 .main-nav ul li:hover {
   background: #f2f2f2;
 }
-
 .main-nav ul li a {
   padding: 20px 15px;
 }
@@ -139,16 +135,13 @@ a {
   left: 0px;
   z-index: 9999999999;
 }
-
 .drop-nav ul {
   padding: 0;
 }
-
 .drop-nav ul li {
   display: flex;
   padding: 0;
 }
-
 .drop-nav ul li a {
   padding: 10px 10px;
 }
@@ -168,9 +161,8 @@ a {
 .telephone-contact {
   display: flex;
   background-color: #f2a100;
-  margin: auto 0 auto 30px;
+  margin: 22px 0 22px 30px;
 }
-
 .telephone-contact .circle {
   background-color: #fff;
   height: 40px;
@@ -178,13 +170,11 @@ a {
   display: flex;
   margin: 3px 7px;
 }
-
 .telephone-contact svg {
   height: 28px;
   fill: #f2a100;
   margin: auto;
 }
-
 .telephone-contact a {
   display: flex;
   align-items: center;
@@ -292,17 +282,14 @@ a {
   width: 1200px;
   margin: 0 auto;
 }
-
 .welcome-content .column-1, .welcome-content .column-2 {
   display: flex;
   width: 50%;
   padding: 15px;
 }
-
 .welcome-content .column-1 {
   flex-direction: column;
 }
-
 .welcome-content .column-1 h2 {
   margin-bottom: 5px;
   font-size: 32px;
@@ -327,7 +314,6 @@ a {
 
 .top-img {
   height: 400px;
-  width: 554px;
   background-image: url("../Imgs/pictures/house-plans.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -804,7 +790,6 @@ a {
   border-radius: 4px;
   margin-top: 30px;
 }
-
 .form-content .btn:hover {
   background-color: #ffff99;
 }
@@ -904,7 +889,6 @@ a {
   position: relative;
   align-items: center;
 }
-
 .services-service img {
   width: 100%;
   height: 500px;
@@ -924,11 +908,9 @@ a {
   text-align: center;
   width: 100%;
 }
-
 .services-text-section h3 {
   font-size: 1.75em;
 }
-
 .services-text-section p {
   font-size: 1.35em;
   line-height: 1.15em;
@@ -981,7 +963,7 @@ a {
   border-radius: 50%;
 }
 
-.about h2 {
+.about {
   text-align: center;
   background-color: #f2a100;
   color: #fff;
@@ -989,7 +971,14 @@ a {
   margin: 0;
 }
 
+.intro {
+  margin-top: 30px;
+  text-align: center;
+}
+
 .telephone-contact {
   display: flex;
   align-items: center;
 }
+
+/*# sourceMappingURL=Style.css.map */
