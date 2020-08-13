@@ -1,0 +1,44 @@
+@media (max-width: 499px) {
+    .hide-xs {
+        display: none;
+    }
+    .show-xs {
+        display: flex;
+    }
+}
+
+@media (min-width: 500px) {
+    .hide-sm {
+        display: none;
+    }
+    .show-sm {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .hide-md {
+        display: none;
+    }
+    .show-md {
+        display: flex;
+    }
+}
+
+@media (min-width: 990px) {
+    .hide-lg {
+        display: none;
+    }
+    .show-lg {
+        display: flex;
+    }
+}
+
+@media (min-width: 1260px) {
+    .hide-xl {
+        display: none;
+    }
+    .show-xl {
+        display: flex;
+    }
+}
