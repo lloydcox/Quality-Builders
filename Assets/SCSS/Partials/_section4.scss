@@ -4,10 +4,12 @@
 .partners-container {
     display: flex;
     justify-content: center;
+    width: auto;
 }
 
 .partners-heading {
     position: relative;
+    margin-left: 10px;
 }
 
 .partners {
@@ -44,16 +46,16 @@
 }
 
 .slick-next {
-    right: -50px;
+    right: 3%;
     top: 15px;
+    z-index: 10;
 }
 
 .slick-prev {
-    left: -50px;
+    left: 0;
     top: 15px;
+    z-index: 10;
 }
-
-
 
 .slick-prev:before {
     content: "<";
@@ -68,3 +70,22 @@
     font-size: 100px;
     opacity: 0.15;
   }
+
+@media screen and (min-width: 550px) { 
+    .partners-heading {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+
+}
+
+@media screen and (min-width:990px) { 
+
+
+}
+
+@media screen and (min-width: 1260px) {
+
+}

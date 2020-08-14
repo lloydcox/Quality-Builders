@@ -2,7 +2,7 @@
 
 @import 'partials/_Attributes.scss';
 @import 'partials/_typography.scss';
-@import 'partials/media_query_IE';
+
 @import 'partials/_section1.scss';
 @import 'partials/_section2.scss';
 @import 'partials/_section3.scss';
@@ -27,4 +27,5 @@
 
 // Global media queries
 
-@import 'partials/_global-media-queries.scss'
+@import 'partials/_global-media-queries.scss';
+@import 'partials/media_query_IE';

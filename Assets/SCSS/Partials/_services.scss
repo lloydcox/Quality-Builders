@@ -45,10 +45,15 @@
     background-color: $white;
 } 
 
+.layout-container {
+    display: flex;
+    justify-content: center;
+}
+
 .services-section-1 {
     border: $orange 15px solid;
     padding: 8px;
-    width: 1250px;
+
     margin: 10px auto;
 }
 
