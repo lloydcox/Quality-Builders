@@ -38,7 +38,7 @@
     display: none;
     position: absolute;
     background-color: $orange;
-    top: 59px;
+    top: 58px;
     left: 0px;
     z-index: 9999999999;
     ul {
@@ -127,7 +127,7 @@
         margin: 22px auto 22px 22px;
     }
     .drop-nav {
-        top: 57px;
+        top: 56px;
     }
 }
 
@@ -165,9 +165,19 @@
         font-size: 14px;
     }
     .header-content {
-        width: auto;
+        width: 483px;
     }
     .drop-nav {
-        top: 57px;
+        top: 56px;
+    }
+    .services a, .services, .drop-nav {
+        width: 130px;
+    }
+    .main-nav ul li a {
+        padding: 20px 12px;
+    }
+    .main-nav {
+        width: 492px;
+        margin: auto;
     }
 }

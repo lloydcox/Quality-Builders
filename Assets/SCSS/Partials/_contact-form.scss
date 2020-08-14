@@ -58,6 +58,7 @@
                }
         }
         .btn {
+            font-weight: bold;
             // margin: 0 0 0 15px;
             display: block;
             border: none;
@@ -66,7 +67,7 @@
             border-radius: 4px;
             margin-top: 30px;
             &:hover {
-                background-color: lighten($yellow, 30%);
+                background-color: lighten($yellow, 20%);
             }
         }
     label {
@@ -88,8 +89,118 @@
             text-decoration: underline;
           }
       }
+      .privacy-check {
+          display: flex;
+      }
     //   Javascript styling
     // .input-active {
     //     box-shadow: inset $about-hover 2px 0;
     // }
   }
+
+@media (max-width: 1259px) and (min-width: 990px) {
+    .form-content {  
+        width: 960px;
+    }
+    .gdpr a::before {
+        content: "\A";
+        white-space: pre;
+    }
+    .form-content .gdpr {
+        text-align: left;
+        text-align: start; 
+        margin: 12px 0 16px 0;
+    }
+}
+
+@media (max-width: 989px) and (min-width: 768px) {
+    .form-content {
+        width: 750px;
+        flex-direction: column;
+        .column-1 {
+            flex-direction: column-reverse;
+            padding-bottom: 40px;
+        }
+        .column-1, .column-2 {
+            width: 560px;
+        }
+        input, textarea {
+            width: 100%;
+        }
+        .btn {
+            padding: 15px 30px;
+        }
+        .checkbox {
+            height: 18px;
+            width: 18px;
+        }
+        .gdpr {
+            padding-left: 10px;
+        }
+        .gdpr a::before {
+            content: "\A";
+            white-space: pre;
+        }
+    }
+    .column-1, .column-2 {
+        margin: auto;
+    }
+    .form-container {
+        padding: 10px 0 50px 0;
+    }
+    .column-1 .img img {
+        width: 400px;
+    }
+    .form-content .gdpr {
+        text-align: left;
+        text-align: start; 
+        margin: 12px 0 16px 0;
+    }
+} 
+@media (max-width: 767px) {
+    .form-content {
+        width: 450px;
+        flex-direction: column;
+        .column-1 {
+            flex-direction: column-reverse;
+            padding-bottom: 40px;
+        }
+        .column-1, .column-2 {
+            width: 450px;
+        }
+        input, textarea {
+            width: 100%;
+        }
+        .btn {
+            padding: 15px 30px;
+        }
+        .checkbox {
+            height: 18px;
+            width: 18px;
+        }
+        .gdpr {
+            padding-left: 10px;
+        }
+        .gdpr a::before {
+            content: "\A";
+            white-space: pre;
+        }
+        form {
+            padding: 0 20px;
+        }
+    }
+    .column-1, .column-2 {
+        margin: auto;
+    }
+    .form-container {
+        padding: 10px 0 50px 0;
+    }
+    .column-1 .img img {
+        width: 350px;
+    }
+    .form-content .gdpr {
+        text-align: left;
+        text-align: start; 
+        margin: 12px 0 16px 0;
+    }
+}
