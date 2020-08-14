@@ -23,7 +23,7 @@
 .testimonial-title-1::after {
     content: "";
     position: absolute;
-    left: 41%;
+    left: 20%;
     width: 213px;
     top: 50px;
     height: 3px;        
@@ -33,15 +33,31 @@
 .testimonials-section1 {
     border: $orange 15px solid;
     padding: 8px;
-    width: 1250px;
     margin: 10px auto;    
 }
 
+.testimonials-1 {
+    margin: 0 50px;
+}
+
 .client-1 {
-    margin:  40px auto auto;
+    margin: auto auto;
     padding: 10px;
     border-radius: 50%;
     background-color: $white;
     border: solid 15px $orange;
     border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+@-moz-document url-prefix() {
+    .divider-block {
+        display: block;
+        padding-top: 7%;
+    }
+
+
 }

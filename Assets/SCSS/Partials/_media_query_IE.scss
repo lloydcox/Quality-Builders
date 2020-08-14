@@ -2,9 +2,13 @@
 
     //  Main Carousel 
 
+.divider-block {
+    display: block;
+    padding: 175px 0 0 150px;
+    }     
+
 .divider-border {
     width: 40vw;
-    // height: 80vh;
     background: white;
     position: relative
          
@@ -38,11 +42,6 @@
     }
 }
 
-.divider-block {
-    margin-left: 250px;
-    padding-bottom: 70px;
-}
-
 .main-carousel .slick-next {
     top: 43%;
     right: 10%;
@@ -65,4 +64,60 @@
 
 .testimonials-top {
     margin-top: 20px;
+}
+
+@media screen and (min-width: 550px) { 
+
+    .testimonial-title-1::after {
+        left: 19%;        
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .testimonial-title-1::after {
+        left: 33%;        
+    }
+}
+
+@media screen and (min-width:990px) { 
+    .testimonial-title-1::after {
+        left: 36%;        
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .testimonial-title-1::after {
+        left: 40%;        
+    }
+}
+
+
+
+// FireFox Fixes
+
+
+@media screen and (min-width: 550px) { @-moz-document url-prefix() { 
+
+    .testimonial-title-1::after {
+        left: 21%;        
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .testimonial-title-1::after {
+        left: 33%;        
+    }
+}
+
+@media screen and (min-width:990px) { 
+    .testimonial-title-1::after {
+        left: 37%;        
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .testimonial-title-1::after {
+        left: 41%;        
+    }
+}
 }
