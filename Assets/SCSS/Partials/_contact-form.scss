@@ -96,6 +96,21 @@
     // .input-active {
     //     box-shadow: inset $about-hover 2px 0;
     // }
+
+  .warning-alert {
+    background-color: RGBA(204,51,0,0.5);
+    display: flex;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 180px;
+    top: -18px;
+    }
+    .submit-area {
+        position: relative;
+    }
   }
 
 @media (max-width: 1259px) and (min-width: 990px) {

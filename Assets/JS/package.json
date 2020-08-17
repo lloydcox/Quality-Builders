@@ -1,0 +1,14 @@
+{
+  "name": "quality_builders",
+  "version": "1.0.0",
+  "description": "A website created for the fictional company quality builders for netmatters coursework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dermot Wilson & Lloyd Cox",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^9.17.1"
+  }
+}

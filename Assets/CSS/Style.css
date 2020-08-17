@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
 }
 
 .header-container, .get-in-touch-btn {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   letter-spacing: 0.01px;
   font-weight: bolder;
 }
@@ -53,11 +53,9 @@ a {
 .qb-logo {
   display: flex;
 }
-
 .qb-logo a {
   display: flex;
 }
-
 .qb-logo img {
   margin: auto auto auto 0;
   width: 260px;
@@ -67,15 +65,12 @@ a {
 .main-nav {
   margin: auto 0 auto auto;
 }
-
 .main-nav ul li {
   display: inline-block;
 }
-
 .main-nav ul li:hover {
   background: #f2f2f2;
 }
-
 .main-nav ul li a {
   padding: 20px 30px;
   display: inline-block;
@@ -89,16 +84,13 @@ a {
   left: 0px;
   z-index: 9999999999;
 }
-
 .drop-nav ul {
   padding: 0;
 }
-
 .drop-nav ul li {
   display: flex;
   padding: 0;
 }
-
 .drop-nav ul li a {
   padding: 10px 10px;
 }
@@ -121,7 +113,6 @@ a {
   background-color: #f2a100;
   margin: 22px 0 22px 30px;
 }
-
 .telephone-contact .circle {
   background-color: #fff;
   height: 40px;
@@ -129,13 +120,11 @@ a {
   display: flex;
   margin: 3px 7px;
 }
-
 .telephone-contact svg {
   height: 28px;
   fill: #f2a100;
   margin: auto;
 }
-
 .telephone-contact a {
   display: flex;
   align-items: center;
@@ -248,6 +237,10 @@ a {
     margin: auto;
   }
 }
+.container {
+  width: 450px;
+}
+
 .main-carousel .slick-next {
   top: 45%;
   right: 7%;
@@ -269,7 +262,6 @@ a {
   width: 100%;
   background-repeat: no-repeat;
 }
-
 .background-img img {
   height: 100%;
   width: 100%;
@@ -294,13 +286,11 @@ a {
   white-space: nowrap;
   margin-left: 150px;
 }
-
 .divider-block h1 {
   white-space: nowrap;
   font-size: 2.25em;
   position: relative;
 }
-
 .divider-block h5::before {
   content: "";
   position: absolute;
@@ -310,13 +300,11 @@ a {
   height: 3px;
   background-color: #f2a100;
 }
-
 .divider-block h5 {
   font-size: 1.25em;
   position: relative;
   white-space: nowrap;
 }
-
 .divider-block p {
   font-size: 1.15em;
   letter-spacing: 2px;
@@ -356,6 +344,7 @@ a {
     letter-spacing: 2px;
     margin: 0 0 30px;
   }
+
   .divider-contact-btn {
     background-color: #fff;
     padding: 20px 55px 20px 55px;
@@ -365,7 +354,6 @@ a {
     line-height: 15px;
   }
 }
-
 @media screen and (min-width: 990px) {
   .divider-border {
     z-index: 9;
@@ -373,12 +361,14 @@ a {
     clip-path: polygon(0% 0%, 45.5% 0, 60.5% 50%, 45.5% 100%, 0% 100%);
     height: 80vh;
   }
+
   .divider {
     height: 80vh;
     background-color: #f2a100;
     clip-path: polygon(0% 0%, 45% 0, 60% 50%, 45% 100%, 0% 100%);
     height: 80vh;
   }
+
   .divider-block {
     color: #fff;
     margin-left: 150px;
@@ -405,6 +395,7 @@ a {
     letter-spacing: 2px;
     margin: 0 0 30px;
   }
+
   .divider-contact-btn {
     background-color: #fff;
     padding: 20px 55px 20px 55px;
@@ -414,16 +405,17 @@ a {
     line-height: 15px;
   }
 }
-
 @media screen and (min-width: 1260px) {
   .main-carousel .slick-next {
     top: 43%;
     right: 7%;
   }
+
   .main-carousel .slick-prev {
     top: 43%;
     left: 7%;
   }
+
   .divider-block {
     margin-left: 15%;
   }
@@ -445,6 +437,7 @@ a {
     letter-spacing: 2px;
     margin: 0 0 30px;
   }
+
   .divider-contact-btn {
     padding: 15px 55px 15px 55px;
     box-shadow: inset 0 0 5px #f2a100;
@@ -452,7 +445,6 @@ a {
     line-height: 30px;
   }
 }
-
 .welcome-container {
   display: flex;
   margin-left: auto;
@@ -465,16 +457,13 @@ a {
   margin: 0 auto;
   padding-top: 25px;
 }
-
 .welcome-content .column-1, .welcome-content .column-2 {
   width: 50%;
   padding: 15px;
 }
-
 .welcome-content .column-1 {
   flex-direction: column;
 }
-
 .welcome-content .column-1 h2 {
   margin-bottom: 5px;
   font-size: 36px;
@@ -656,7 +645,6 @@ a {
     margin-left: 0;
   }
 }
-
 .services1 {
   background-color: #f2a100;
   display: flex;
@@ -713,7 +701,6 @@ a {
   align-items: center;
   border: 3px solid #fff;
 }
-
 .service img {
   width: 100%;
   height: 240px;
@@ -732,11 +719,9 @@ a {
   text-align: center;
   width: 90%;
 }
-
 .text-section h3 {
   font-size: 1.75em;
 }
-
 .text-section p {
   font-size: 1.35em;
   line-height: 1.15em;
@@ -748,40 +733,40 @@ a {
     margin-top: 10px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .container {
     width: 750px;
   }
+
   .service {
     width: 47%;
   }
+
   .service-3 {
     width: 47%;
     margin-left: auto;
     margin-right: auto;
   }
+
   .services-title {
     flex-direction: row;
   }
 }
-
 @media screen and (min-width: 990px) {
   .container {
     width: 910px;
   }
+
   .service {
     width: 31%;
     margin: 0;
   }
 }
-
 @media screen and (min-width: 1260px) {
   .container {
     width: 1200px;
   }
 }
-
 .testimonials-container {
   display: flex;
   justify-content: center;
@@ -855,14 +840,12 @@ a {
   margin-right: auto;
   justify-content: center;
 }
-
 .get-in-touch-container a {
   color: #0f1626;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
-
 .get-in-touch-container p {
   padding-right: 50px;
   margin: 12px 0;
@@ -879,7 +862,6 @@ a {
   text-align: center;
   padding: 16px 0;
 }
-
 .get-in-touch-btn:hover {
   background-color: #f2f2f2;
 }
@@ -918,7 +900,6 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
 .footer-container a:hover {
   text-decoration: underline;
 }
@@ -946,11 +927,9 @@ a {
 .footer-column-1 {
   padding: 0 30px;
 }
-
 .footer-column-1 p {
   margin: 6px 0;
 }
-
 .footer-column-1 p:first-of-type {
   margin: 15px 0 6px 0;
 }
@@ -959,11 +938,9 @@ a {
   list-style-image: url("../Imgs/icons/List icon arrow.svg");
   padding-left: 20px;
 }
-
 .footer-column-2 ul li {
   padding: 2px 0;
 }
-
 .footer-column-2 li::marker {
   fill: #fff;
   height: 5px;
@@ -973,7 +950,6 @@ a {
   display: flex;
   margin-bottom: 5px;
 }
-
 .social a {
   margin: auto auto auto 0;
 }
@@ -1017,21 +993,17 @@ a {
 .socials-container {
   display: flex;
 }
-
 .socials-container .socials-column-1, .socials-container .socials-column-2 {
   display: flex;
   flex-direction: column;
 }
-
 .socials-container .socials-column-1 div, .socials-container .socials-column-2 div {
   display: flex;
   margin-right: 10px;
 }
-
 .socials-container .socials-column-2 {
   margin-left: 15px;
 }
-
 .socials-container svg {
   height: 25px;
   width: 25px;
@@ -1116,7 +1088,6 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
 .copyright-container p {
   color: #fff;
   margin: auto;
@@ -1146,7 +1117,6 @@ a {
   padding: 30px 0;
   margin: 0;
 }
-
 .form p {
   text-align: center;
   margin-top: 35px;
@@ -1165,23 +1135,19 @@ a {
   width: 1200px;
   margin: auto;
 }
-
 .form-content form {
   padding-left: 30px;
 }
-
 .form-content .img {
   border: orange 15px solid;
   padding: 8px;
   margin: 0 auto;
 }
-
 .form-content .column-1, .form-content .column-2 {
   display: flex;
   flex-direction: column;
   width: 600px;
 }
-
 .form-content input, .form-content textarea {
   display: block;
   background: rgba(255, 255, 255, 0.1);
@@ -1202,7 +1168,6 @@ a {
 .form-content input:focus, .form-content textarea:focus {
   box-shadow: inset #7DBADF 0px 0px 4px 0px;
 }
-
 .form-content .btn {
   font-weight: bold;
   display: block;
@@ -1212,36 +1177,44 @@ a {
   border-radius: 4px;
   margin-top: 30px;
 }
-
 .form-content .btn:hover {
   background-color: #ffff66;
 }
-
 .form-content label {
   display: block;
   margin-bottom: 8px;
 }
-
 .form-content .checkbox, .form-content .gdpr {
   display: inline-block;
 }
-
 .form-content .checkbox {
   width: auto;
   display: inline-block;
 }
-
 .form-content .gdpr {
   margin: 16px 0;
   padding-left: 5px;
   font-size: 14px;
 }
-
 .form-content .gdpr a:hover {
   text-decoration: underline;
 }
 .form-content .privacy-check {
   display: flex;
+}
+.form-content .warning-alert {
+  background-color: RGBA(204, 51, 0, 0.5);
+  display: flex;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 180px;
+  top: -18px;
+}
+.form-content .submit-area {
+  position: relative;
 }
 
 @media (max-width: 1259px) and (min-width: 990px) {
@@ -1434,7 +1407,6 @@ a {
   position: relative;
   align-items: center;
 }
-
 .services-service img {
   width: 100%;
   height: 500px;
@@ -1454,11 +1426,9 @@ a {
   text-align: center;
   width: 100%;
 }
-
 .services-text-section h3 {
   font-size: 1.75em;
 }
-
 .services-text-section p {
   font-size: 1.35em;
   line-height: 1.15em;
@@ -1524,7 +1494,6 @@ a {
     padding-top: 7%;
   }
 }
-
 .about {
   text-align: center;
   background-color: #f2a100;
@@ -1669,20 +1638,20 @@ a {
     display: flex;
   }
 }
-
-/*# sourceMappingURL=Style.css.map */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .divider-block {
     display: block;
     padding: 175px 0 0 150px;
   }
+
   .divider-border {
     width: 40vw;
     background: white;
     position: relative;
   }
+
   .divider-border:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 100%;
@@ -1690,13 +1659,15 @@ a {
     border-bottom: 40vh solid transparent;
     border-left: 150px solid #fff;
   }
+
   .divider {
     background-color: #f2a100;
     width: 39.5vw;
     position: relative;
   }
+
   .divider:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 100%;
@@ -1705,7 +1676,6 @@ a {
     border-left: 150px solid #f2a100;
   }
 }
-
 .main-carousel .slick-next {
   top: 43%;
   right: 10%;
@@ -1731,25 +1701,21 @@ a {
     left: 19%;
   }
 }
-
 @media screen and (min-width: 768px) {
   .testimonial-title-1::after {
     left: 33%;
   }
 }
-
 @media screen and (min-width: 990px) {
   .testimonial-title-1::after {
     left: 36%;
   }
 }
-
 @media screen and (min-width: 1260px) {
   .testimonial-title-1::after {
     left: 40%;
   }
 }
-
 @media screen and (min-width: 550px) {
   @-moz-document url-prefix() {
     .testimonial-title-1::after {
@@ -1757,21 +1723,20 @@ a {
     }
   }
 }
-
 @media screen and (min-width: 550px) and (min-width: 768px) {
   .testimonial-title-1::after {
     left: 33%;
   }
 }
-
 @media screen and (min-width: 550px) and (min-width: 990px) {
   .testimonial-title-1::after {
     left: 37%;
   }
 }
-
 @media screen and (min-width: 550px) and (min-width: 1260px) {
   .testimonial-title-1::after {
     left: 41%;
   }
 }
+
+/*# sourceMappingURL=Style.css.map */
