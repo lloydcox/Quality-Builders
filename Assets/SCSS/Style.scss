@@ -24,4 +24,8 @@
 @import 'partials/about';
 
 @import 'partials/_IEfixes';
+
+// Global media queries
+
+@import 'partials/_global-media-queries.scss';
 @import 'partials/media_query_IE';

@@ -23,12 +23,12 @@
 .main-nav {
     ul li {
         display: inline-block;
-        padding: 20px 15px;
         &:hover {
             background: darken($white, 5%);
         }
         a {
-            padding: 20px 15px;
+            padding: 20px 30px;
+            display: inline-block;
         }
     }    
     margin: auto 0 auto auto;
@@ -55,6 +55,7 @@
 }
 .services {
     position: relative;
+    text-align: center;
 }
 
 .services, .drop-nav {
@@ -93,4 +94,90 @@
 .circle {
     border-radius: 50%;
     background-color: $white;
+}
+
+.header-content-2 {
+    display: flex;
+    ul {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1259px) and (min-width: 990px) {
+    .header-container, .header-content {
+        width: 960px;
+        font-size: 14px;
+    } 
+    .main-nav ul {
+        padding: 0;
+        li a {
+            padding: 20px 10px;
+        }
+    }
+    .main-nav {
+        margin-left: 12px;
+    }
+    .services, .drop-nav {
+        width: 130px;
+    }
+    .qb-logo {
+        margin-left: auto;
+    }
+    .telephone-contact {
+        margin: 22px auto 22px 22px;
+    }
+    .drop-nav {
+        top: 56px;
+    }
+}
+
+@media (max-width: 989px) and (min-width: 768px) {
+    header {
+        height: 180px;
+    }
+    .header-container {
+        flex-direction: column;
+    }
+    .main-nav {
+        margin: auto;
+    }
+    .header-content {
+        margin: auto;
+        width: 670px;
+    }
+    .telephone-contact {
+        margin: 20px 20px 20px auto;
+    }
+    .qb-logo {
+        margin: auto auto auto 32px;
+        img {
+            width: 325px;
+            height: 42px;
+        }
+    }
+} 
+@media (max-width: 767px) {
+    .header-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-content-2 {
+        font-size: 14px;
+    }
+    .header-content {
+        width: 483px;
+    }
+    .drop-nav {
+        top: 56px;
+    }
+    .services a, .services, .drop-nav {
+        width: 130px;
+    }
+    .main-nav ul li a {
+        padding: 20px 12px;
+    }
+    .main-nav {
+        width: 492px;
+        margin: auto;
+    }
 }

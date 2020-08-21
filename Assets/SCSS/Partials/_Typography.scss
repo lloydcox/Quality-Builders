@@ -7,6 +7,10 @@ a {
     color: $black;
 }
 
+.btn {
+    cursor: pointer;
+}
+
 .header-container, .get-in-touch-btn {
     font-family: 'Lexend Deca', sans-serif;
     letter-spacing: 0.01px;
@@ -15,14 +19,17 @@ a {
 
 .footer-container {
     font-weight: bolder;
+    h3 {
+        font-size: 20px;
+    }
     p, a, .btn {
-            font-size: 14px;
+        font-size: 16px;
         }
 }
 
 .welcome-content {
     p {
         color: $gray-text;
-        font-size: 20px;
+        font-size: 22px;
     }
 }

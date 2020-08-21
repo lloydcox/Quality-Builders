@@ -8,8 +8,9 @@
     display: flex;
     width: 1200px;
     margin: 0 auto;
+    padding-top: 25px;
     .column-1, .column-2 {
-        display: flex;
+
         width: 50%;
         padding: 15px;
     }
@@ -17,7 +18,9 @@
         flex-direction: column;
         h2 {
             margin-bottom: 5px;
-            font-size: 32px;
+            font-size: 36px;
+            font-weight: 400;
+            margin-top: 0;
         }
     }
 }
@@ -40,7 +43,7 @@
 }
 
 .top-img {
-    height: 400px;
+    height: 414px;
     // width: 554px;
     // background-color: $white;
     background-image: url('../Imgs/pictures/house-plans.jpg');
@@ -66,4 +69,54 @@
     background-image: url('../Imgs/pictures/grinder.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 1259px) and (min-width: 990px) {
+    .welcome-content {
+        width: 960px;
+        p {
+            font-size: 16px;
+        }
+    }
+    .top-img {
+        height: 287px;
+        width: 404px;
+    }
+    .welcome-images {
+        width: 452px;
+    }
+    .welcome-bottom-imgs div {
+        height: 143px;
+        width: 200px;
+    }
+    .flat-divider {
+        width: 258px;
+    }
+    .welcome-content .column-1 h2 {
+        font-size: 30px;
+    }
+    .column-1 .img img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 989px) and (min-width: 768px) {
+    .welcome-content .column-1, .welcome-content .column-2 {
+        width: 100%;
+    }
+    .welcome-content {
+        flex-direction: column;
+        width: 750px;
+        p {
+            font-size: 18px;
+        }
+    }
+    .welcome-images {
+        margin: auto;
+    }
+} 
+@media (max-width: 767px) {
+    .welcome-content .column-1, .welcome-content .column-2 {
+        width: 100%;
+    } 
 }
